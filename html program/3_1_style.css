@@ -1,0 +1,131 @@
+html {
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* li{
+   color: white; do for all li
+} */
+
+/* . is used for class and # is used for id */
+
+.colo {
+    color: rgb(255, 255, 255);
+    /* float: left; */
+    padding: 2px 18px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+#search{
+    color: white;
+    float: right;
+    padding: 2px 10px;
+    margin: 5px 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: row; 
+    justify-content: center; check in inspect display:flex about which rap to chooseaccordingly */
+
+
+    }
+
+/* 
+priority of CSS styling is --->
+inline styling > id > class > tag i.e li etc */
+
+nav {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid lightblue;
+    min-height: 60px;
+    /* min height bcz when we reload we want the height of the nav bar be 0  */
+    padding: 0px;
+    list-style: none;
+    /* do this either here or set this in ul's type as type="" */
+
+    /* the display flex and other is done in nav bcz we want a responsive website when the window resolutiion chnages the nav bars should adjust too */
+    display:flex;  /* just a type of how to show the display wrap in which mannner during window reso changes */
+    flex-direction: column;
+    /* to set the direction of wrapping of display flex.....do it in inspect's flex direction it has many optiions too */
+    justify-content: center; /* tp set the content or the text here to be at centre */
+    /* align-items: center;  to align items of content irrespective of that blocks height the itmes wil adjust to centre */
+}
+
+
+
+/* li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: rgb(17, 216, 33);
+} */
+ul {
+    padding: 10px 28px;
+    margin: 0px;
+    /* float: left; */
+
+    /* background-color: black; */
+}
+
+.section{
+    list-style: none;
+    float: left;
+   
+}
+.section:hover{
+    color: rgba(22, 204, 68, 0.658);
+    background-color: purple;
+}
+
+/* #home{
+margin: -6px 46px;
+}
+
+#edu{
+    float: left;
+    margin: 6px 50px;
+}
+
+#id{
+    margin: 18px 0px;
+} */
+
+/* #ach{
+    margin: 8px 0px;
+}
+
+#contact{
+    margin: 16px 55px;
+}
+
+#about{
+    margin: 16px -10px;
+} */
+.skills{
+    margin: 0px 0px;
+}
+
+.colo:hover{
+    color: cyan;
+    border-radius: 2px;
+    background-color: purple;
+}
+#search:hover{
+    color: cyan;
+    background-color: purple;
+    border-radius: 2px;
+}
+ 

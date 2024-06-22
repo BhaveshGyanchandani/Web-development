@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <style>
+
+        .headerimg{
+            height: 250px;
+            display: block; 
+            margin: auto;
+        }
+
+       
+img{
+    width: 200px;
+}
+h1{
+    
+    margin: auto;
+    text-align: center;
+}
+.img1{
+    display: inline-block;
+
+}
+.img2{
+
+float: left;
+}
+.no{
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+.box{
+    width: 450px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+<!--in .headerimg display block used to make the image in the block element center with the title-->
+<!--as the image is an inline element ans take only partcicular req space so we use display to convert the display of items like changing of block element and inoine element-->
+<header class="uchiha">
+        <h1>uchiha gallery</h1>
+        <img class="headerimg" src="https://imgs.search.brave.com/quI6aiZW_STecsLOjLY480q9BcwHBbelCJWybn_r_U8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzIxOS82NjYv/NTE3L25hcnV0by1h/bmltZS11Y2hpaGEt/aXRhY2hpLXVjaGlo/YS1jbGFuLWhkLXdh/bGxwYXBlci1wcmV2/aWV3LmpwZw">
+    </header>
+    <div class="img">
+        <img class="img1" src="https://imgs.search.brave.com/il1yS5GNfyW12jXP__64Y9GNSUBQvn8cxyaFb0DC4Qs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9iZXN0/cHJvZmlsZXBpY3R1/cmVzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMS8wNi9N/YWRhcmEtVWNoaWhh/LVByb2ZpbGUtUGlj/dHVyZXMtODUxeDEw/MjQuanBn">
+        <!--img is an inline element takes only one space while div and header is an block element means takes the whole block-->
+        <img class="img2" src="https://imgs.search.brave.com/3USHs3ySRnDkcOsJdgHepbK-PN1a5Ap7p4Fa9OiPm-Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMyODg4/MDguanBn">
+    </div>
+    <div class="no">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quae rerum repudiandae nesciunt placeat porro sapiente? Facilis esse, quas ea repellendus quibusdam, provident vitae, natus quo alias quos itaque. Officiis!
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1>HEADING</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum omnis ratione, explicabo non laudantium consectetur sed. Alias eaque, porro molestiae unde reprehenderit laboriosam maxime, praesentium beatae quas voluptatem possimus autem?
+        </div>
+        <div class="box">
+            <h1>HEADING</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum omnis ratione, explicabo non laudantium consectetur sed. Alias eaque, porro molestiae unde reprehenderit laboriosam maxime, praesentium beatae quas voluptatem possimus autem?
+        </div>
+        <div class="box">
+            <h1>HEADING</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum omnis ratione, explicabo non laudantium consectetur sed. Alias eaque, porro molestiae unde reprehenderit laboriosam maxime, praesentium beatae quas voluptatem possimus autem?
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../node with  mosh"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "node.js"
+	}
+}

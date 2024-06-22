@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "node.js"
+		},
+		{
+			"path": "mongoDB"
+		}
+	],
+	"settings": {
+		"editor.maxTokenizationLineLength": 80,
+		"html.format.wrapLineLength": 80
+	}
+}

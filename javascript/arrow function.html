@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow function</title>
+</head>
+<body>
+ <div class="cont">
+    this is a arrow function
+ </div>   
+
+ <script>
+// function greet(){
+//     console.log("helo");
+// }
+// greet();
+// OR
+
+greet = ()=> {//()=> is known as  aarrow
+    console.log('gm');
+}
+greet();
+setTimeout(()=>{
+    console.log("we are in settimeout");
+},1000)
+//instead of using a functioin like greet and console we used arrow func with conole
+
+let sum=(a,b)=>{
+    return a+b;
+};
+//or
+let sum2=(a, b)=>a+b;
+let half=(a)=>a/2;
+//here a,b are called argunent
+
+//this is aobject
+let obj={
+name:["lol","mka","dj"],
+no:34,
+speak(){
+    this.name.forEach((student)=> {
+        console.log("gm to LL"+student);
+    });
+}
+
+}
+obj.speak();
+
+
+ </script>
+</body>
+</html>

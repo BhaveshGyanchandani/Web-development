@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+.cont{
+    border: 4px solid black;
+    height: 500px;
+    display: flex;  
+    margin: auto;
+/* flex properties of flex box
+change the display to flex */
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: row ;
+flex-wrap: wrap;/*for responsive website*/
+/* flex-flow: (flex direction) (flex wrap); to use flex direction and flexwrap in one line of code */
+justify-content: center; /*to align our box at centre  and etc */
+
+}
+.box-1{
+    order: 2;
+    flex-grow: 4;/* will increase the soxe of  =bix than others while also bein in responsive*/
+}
+.box-2{
+     order:3; /* higher the order,that box wil be at end of task */
+}
+#item{
+    border: 2px black solid;
+    margin: 4px;
+     height: 50px;
+    width: 100px;
+    
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        this is flex box
+    </h1>
+<div class="cont">
+    
+    <div id="item" class="box-1">first</div>
+    <div id="item" class="box-2">second</div>
+    <div id="item" class="box-3">third</div>
+    <div id="item" class="box-4">fourth</div>
+    <div id="item" class="box-5">fifth</div>
+    <div id="item" class="box-6">sixth</div>
+</div>
+</body>
+</html>

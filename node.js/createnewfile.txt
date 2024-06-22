@@ -1,0 +1,3 @@
+// synchronus code or blocking code--> line by line code execution is gurranted
+// non synchronus code or non blocking code--> line by line execution of code not gurranted
+console.log("melo");

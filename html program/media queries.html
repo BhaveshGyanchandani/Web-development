@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+.box{
+    width: 1000px;
+    display: none;
+    flex-wrap: wrap;
+    font-size: 100px;
+    
+}
+@media (max-width:300px){
+    #box1{
+        color: white;
+        background-color: cyan;
+        display: block;
+    }
+}
+@media (min-width:300px) and (max-width:600px){
+   #box2{
+        color: white;
+        background-color: black;
+        display: block;
+    }
+}
+@media (min-width:600px) and (max-width:1000px){
+    #box3{color: white;
+        background-color: blue;
+        display: block;
+    }
+}
+@media (min-width:1000px) and (max-width:1500px){
+    #box4{color: white;
+background-color: red;
+display: block;
+    }
+}
+    </style>
+</head>
+<body>
+    
+        <div class="box" id="box1">i am a phone</div>
+        <div class="box" id="box2">i am a tab</div>
+        <div class="box" id="box3">i am a pc</div>
+        <div class="box" id="box4">i am a droiid</div>
+    
+</body>
+</html>

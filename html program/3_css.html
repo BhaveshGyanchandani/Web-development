@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="3_1_style.css" rel="stylesheet" href="text/css">
+    <!-- this is an external css by linking to css file , whose tyoe uis stylesheet-->
+    <!-- <style>
+        li{
+            color: green;
+        }
+    </style> -->
+    <!--
+        this is an internal css
+    -->
+</head>
+
+<body>
+
+
+    <nav>
+        <ul type="none">
+            <!-- <li style="color: rgb(161, 28, 133);"><h3>Home</h3></li> -->
+            <!-- this is na inline css-->
+            <li class="colo">Home</li>
+            <li class="colo">About</li>
+            <li class="colo">Contact</li>
+            <li class="colo">experience</li>
+            <li class="colo">education</li>
+            <li class="colo">achievements</li>
+            <form>
+                <li id="search">Search : <input type="search" value="search"></li>
+            </form>
+        </ul>
+    </nav>
+     <!-- always use li in section dont write anything in section directly or it will cause havoc during hover -->
+    <section class="section" id="home"><li>Welcome</li></section>
+    <section class="section" id="about" ><li>about me</li> </section>
+    <section class="section" id="contact"><li>Contact no</li></section>
+    <section class="section" id="id"><li>10 years</li></section>
+    <section class="section" id="edu">
+        <ul type="none">
+            <li>school</li>
+            <li>college</li>
+            <li>pg</li>
+        </ul>
+    </section>
+    <section class="section" id="ach">
+        <ul type="none">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4 </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>

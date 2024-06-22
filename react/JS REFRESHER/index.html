@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a = 34;
+        let b = 'heello';
+        console.log(a);
+        console.log(b);
+        function hello(){
+            console.log("helo everyone"); 
+            // we can access this in the console of the inspect part 
+        }
+        // objects
+        let obj={
+            r : 34,   // just like the dictinoary in pthon a key value pair
+            m : 22,   // we can accesss this in console by writing obj =.m
+            func : function myfunc(number){  // can access this function in console by writng  bj.func(45)
+                console.log("the number is : " + number);
+            }
+        }
+
+        document.addEventListener("click", function click () {  // says to run function click () when the screen is clicked
+            console.log("it is clicked");   // guves this message in console whemn we click the screen 
+            // alert("heelo stay alert");   // gives an alert diaglogue box saying this 
+            // confirm("are u sure"); // a simple dialogue box ... but with let we can do somethinig else
+            let conf = confirm("are u sure");  
+            console.log(conf); // gives true if clicked OK, gives false if clicks cancel ....true and false is in console
+        })
+ </script>
+</head>
+<body>
+    <h1>
+        I am learning JS
+    </h1>
+</body>
+</html>

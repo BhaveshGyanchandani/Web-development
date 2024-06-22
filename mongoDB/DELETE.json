@@ -1,0 +1,33 @@
+show dbs
+use harrykart
+show collections
+db.items.insertOne({
+    name: "samsung", cost: 50000, rating: 4.2
+})
+db.items.insertOne({
+    name: "iphone", cost: 100000, rating: 4.2
+})
+db.items.insertOne({
+    name: "moto", cost: 50000, rating: 4.2
+})
+db.items.insertOne({
+    name: "redmi", cost: 30000, rating: 4.2
+})
+
+db.items.find({rating:4.5})
+
+
+db.items.deleteOne({cost:550000})
+
+db.items.deleteOne({cost:100000})
+db.items.deleteOne({cost:30000})
+db.items.deleteOne({id: ObjectId("653fda19e436fdaa9d1ad031"})
+// it will delete the matching entry
+//and will delete the first entry in case of matching document
+or
+
+db.items.deleteMany({rating:4.5})//to delete all the docs having rating 4.2
+db.items.deleteMany([{name:"samsung",cost:50000,rating:4.5},{name:"iphone",cost:100000,rating:4.5}])
+
+to delete insertMany docs
+write db.items.deleteONe({_id: ObjectId("653fda19e436fdaa9d1ad031")}) like this and delete them

@@ -1,0 +1,58 @@
+{
+	"folders": [
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "bootsrap"
+		},
+		{
+			"path": "c"
+		},
+		{
+			"path": "c++"
+		},
+		{
+			"path": "express"
+		},
+		{
+			"path": "html program"
+		},
+		{
+			"path": "java"
+		},
+		{
+			"path": "javascript"
+		},
+		{
+			"path": "mongoDB"
+		},
+		{
+			"path": "mongoose"
+		},
+		{
+			"path": "node.js"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "notes_for_web_dev"
+		},
+		{
+			"path": "oops"
+		},
+		{
+			"path": "python"
+		},
+		{
+			"path": "pythonsheet"
+		},
+		{
+			"path": "react"
+		},
+		{
+			"path": "website"
+		}
+	]
+}

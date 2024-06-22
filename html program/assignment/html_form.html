@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+
+<body style="width: 800px; margin:10px auto; border: 3px solid black; padding:10px ;">
+    <h1 style="background-color: red; color: white;">JobSearch.com</h1>
+    <h2>Create Your Account</h2>
+    <br />
+    <h3 style="color: red;">*Required information</h3>
+    <br />
+    <h2 style="background-color: rgb(192, 189, 189);"><strong>Basic information</strong></h2>
+    <ul type="none"
+        style="background-color: rgba(238, 236, 236, 0.897); text-align: center; justify-content: center;">
+        <form>
+            <label
+                style="display:inline-block; flex-direction: row-reverse; width: 150px;">Email*</label>
+            <input type="text" placeholder="Email"><br /><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Password*</label>
+            <input type="text"><br /><br />
+
+            <label style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Retype
+                Password*</label>
+            <input type="text"><br /><br />
+
+            <label style="display:inline-block ; flex-direction: row-reverse; width: 150px;">first
+                name*</label>
+            <input type="text"><br /><br />
+
+            <label style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Last
+                name*</label>
+            <input type="text"><br /><br />
+
+            <label style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Phone
+                Number*</label>
+            <input type="number" placeholder="999-999-9999"><br /><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Address*</label>
+            <input type="text"><br /><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 150px;">City*</label>
+            <input type="text"><br /><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 100px;">Province*</label>
+            <select>
+                <option value="Alberta" selected>Alberta</option>
+                <option value="Alberta">Washington DC</option>
+                <option value="Alberta">Las vegas</option>
+                <option value="Alberta">New hamphshire</option>
+                <option value="Alberta">Los Angels</option>
+            </select><br><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Country*</label>
+            <input type="text"><br /><br />
+
+        </form>
+    </ul>
+
+    <h2 style="background-color: rgb(192, 189, 189);">Education</h2>
+    <ul type="none"
+        style="background-color: rgba(238, 236, 236, 0.897); text-align: center; justify-content: center;">
+        <form>
+            <label
+                style="display:inline-block; flex-direction: row-reverse; width: 150px;">School*</label>
+            <input type="text" placeholder="Email"><br /><br />
+
+            <label
+                style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Program*</label>
+            <input type="text"><br /><br />
+
+            <label
+                style="display:inline-flex; margin:8px -31px; flex-direction:row ; width: 150px;">Education
+                Level*</label>
+            <select>
+                <option value="Alberta" selected>post graduate</option>
+                <option value="Alberta">under graduate</option>
+                <option value="Alberta">12th pass</option>
+                <option value="Alberta">10th pass</option>
+            </select><br><br />
+
+            <fieldset
+                style="border-radius: 5px; text-align: left; background-color: white; margin: auto 368px; width: 200px;  height: 100px;">
+                <legend>Education Status</legend>
+                <input type="checkbox"><label>Graduated</label><br />
+                <input type="checkbox"><label>Current Enrolled</label><br />
+                <input type="checkbox"><label>Did not Graduate</label><br />
+            </fieldset>
+            <br />
+            <label for="grad_date" style="margin: 24px;">Graduation Date</label>
+            <input type="text"><br /><br />
+
+        </form>
+    </ul>
+
+
+    <h2 style="background-color: rgb(192, 189, 189);">Work Experience</h2>
+    <ul type="none"
+        style="background-color: rgba(238, 236, 236, 0.897); text-align: center; justify-content: center;">
+        <form>
+            <label
+                style="display:inline-block; flex-direction: row-reverse; width: 150px;">Employer</label>
+            <input type="text" placeholder="Email"><br /><br />
+
+            <label style="display:inline-block ; flex-direction: row-reverse; width: 150px;">Job
+                Title</label>
+            <input type="text"><br /><br />
+
+            <label style="margin: 10px 87px;">Job Duty</label>
+            <textarea style="width: 250px; margin:10px 10px; height:100px;">Job Duty</textarea>
+            <br /><br />
+            <label style="margin: 10px 33px;">Worked Year</label>
+            <input type="number" name="work" id="exp">
+            <br /><br />
+        </form>
+    </ul>
+</body>
+
+</html>

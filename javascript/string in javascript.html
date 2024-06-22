@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string in java script</title>
+    <script>
+var string='string';
+var name='i amm a pc';
+var pc='asus';
+console.log(string+name);
+var temp=`${name} is a pc nameD ${pc}`;//JB bhi ${string} daaal ke likhte hai toh hamamri string output fill in the blank type bn jaati hai
+console.log(temp);
+
+//to finid length of a string
+var len=name.length;
+console.log(`length of name is ${len}`);
+console.log("hello\n nigg--\ty all");
+
+//to find index character of a string
+var position=name.indexOf('am');//to find the index of the character written
+var positiona=name.lastIndexOf('pc');
+console.log(position);
+console.log(positiona);
+
+ //to get a part of a string or subsrting of a string
+ var substr=name.slice(2,7);
+ console.log(substr);
+
+ //to replace a name in string
+ var replaced=name.replace('pc','tab');
+ console.log(name);
+ console.log(replaced);
+
+ //to concat a sting or add something to a string
+ var newstring=name.concat(' new string');
+ console.log(newstring);
+
+ //to trims both the spcaes in the sting or in the middle
+ var a="     this   has   too   spaces   ";
+ console.log(a.trim(6,9)) ;
+ console.log(a);
+
+ //to rerurn a character in a sting 
+ var char=name.charAt(2);
+ console.log(char);
+
+ //gives the character code of the character
+ var char=name.charCodeAt(2);
+ console.log(char);
+ </script>
+</head>     
+<body>
+    <div class="cont">
+        <h1>
+            This is the heading
+        </h1>
+    </div>
+</body>
+</html>

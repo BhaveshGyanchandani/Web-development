@@ -1,0 +1,4 @@
+{
+    "editor.maxTokenizationLineLength": 80,
+    "html.format.wrapLineLength": 80
+}

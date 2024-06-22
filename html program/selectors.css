@@ -1,0 +1,98 @@
+ /* 
+ basic selectors
+ *{
+
+ }
+
+ tag_name{
+
+ }
+
+ .class_name{ }
+
+ #Id_name{ }
+
+
+  */
+
+  /* combining selectors
+
+  li,span{ } do the styling both in li and span
+
+  span, li.red { } do the styling in span and in all li's whose class name is red
+
+  span, li#red { } do the styling in span and in all li's whose Id name is red  
+
+  span, li.red { } do the styling in all the li that are in ul :target
+
+  div ul li {  } all the styling in the li tag which is in ul and the ul which is in div.....i.e div.ul.li
+ div ke andr ul ke andr hr li ko krna 
+   */
+
+
+   /* sibling selector
+
+   element1 > element 2 ...the > means the direct child...i,e the element 1 should be the direct fathr of element2 na dthere should be no element between these 2
+
+   div > li {   } li should be the direct chlild of div or div should be the direct parent of li
+
+ elemet 1 ~ element 2 i.e all the element 2 that comes after element 1
+
+ li.red ~ li { } do to all th li's who come after the li whose class name is :read-only
+
+ element1 + element2....means do the with element2 which directly comes after element 1
+
+ li.red + li { } */
+
+
+
+ /* psuedo selector
+ 
+ li:hover[ ]
+
+ li:focus{  background-color:red} giving li the focus i.e changing its backgrounf color to red when clicked on it and when clicked outside the backgrounf color resets
+
+ li:required{   } it will only work with thosse input tag which have " required " keyword in them
+for checked and disbaled tfoot
+
+li:first-child{
+    backgrounf-color:red;
+}    change the backgrounf color only of the very first child of li tag .....
+
+li:nth-child( number ){
+
+} enter the number of which child we want oto change th estylimg to
+
+if we di 3n...it means every third child ile 3,6,9.......
+ */
+
+
+ /* psuedo elements....are one with :: 
+
+div.red::before{
+content:"BEFORE"
+}  means add BEFORE , before the div tag whose class is red starts
+
+div.red:: after{
+    content : "AFTER";
+} add AFTER, after teh div tag whose class name is red ::-webkit-meter-even-less-good-value */
+
+/* 
+
+attribute selectors
+
+
+<div data-red >fsggsrgr</div>  { here data-red is its data attribute}
+
+[data-red]{
+
+} do the styling whose data attribute is data-red....
+
+<div data-red="true" >fsggsrgr</div>
+
+[data-red="true"]{
+
+} do the styling whose data attribute is data-red="true" or only data-red irrespective of its value....\
+
+we can also acces by usinf [data-red] only bcz data-red is dara attribute and true is its ::-ms-value
+ */

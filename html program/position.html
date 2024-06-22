@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postion property</title>
+    <style>
+        #box{
+border: 3px solid black;
+margin: 10px;
+height: 100px;
+display: inline-block;
+width: 100px;
+        }
+        .container{
+            height: 10000px ;
+        }
+        .box3{
+            position: sticky;
+            top: 3px;
+            /* position: relative;
+        top: 33px;
+           right: 50px; */                                         
+
+           /* position: absolute;
+           top: 3px;
+        left : 200px; */
+
+        position: fixed;
+        
+        right: 0px;
+        }
+
+        </style>
+</head>
+<body>
+   <div class="container">
+    <div id="box" class="box1">1</div>
+    <div id="box" class="box2">2</div>
+    <div id="box" class="box3">3</div>
+    <div id="box" class="box4"> 4</div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+</head><style>
+h1{
+border: 2px solid black;
+margin: auto;
+width: 500px;
+text-align: center;
+background-color: red;
+color: aliceblue;
+}
+div p{
+    background-color: cyan;
+    color:black;
+    font-weight: bold;
+}/*only all those element will be affted which are in div p doesnot matter how many eleement are beteween them*/
+/* like for div li p will also include the change in style of all those in which the sequence div li p is corret otherwise it will not be implementes */
+/*div p li is wrong*/
+/* div li p is correct */
+div li p{
+    background-color: orchid;
+    color: black;
+}
+</style>
+<body>
+    <h1>this is for the selectors</h1>
+    <div class="cont">
+        <div class="row">
+            <ul>
+                <li class="item"><p>this is the another para</p></li>
+                <li>no change in styling</li>
+            </ul>
+            <p>this is the insider para</p> 
+
+        </div>
+        
+            <p>this is the outer para</p>
+        
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+    <style>
+        #btn{
+            border: 2px solid black;
+            background-color: cyan;
+            padding: 3px;
+            margin: 5px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Broswe events:
+    click
+    contextmenu
+    mouseover/mouseout
+    mousedown/mouseup
+    mousemove
+
+    submit
+    focus
+
+    DOMContent loaded//dom means document object model
+
+    transitloaded -->
+
+    <div class="cont"><p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, qui vero? Labore laudantium tempora earum placeat voluptas quidem reprehenderit esse similique eaque dignissimos, unde consectetur fugiat atque ut obcaecati, quod veniam dolores, eum asperiores voluptates magnam inventore? Eum id esse magnam ipsa facere error nemo ut molestias recusandae ex, mollitia voluptatum laborum voluptas quasi possimus hic doloremque quae? Ut inventore, assumenda minus sapiente hic quas commodi error amet distinctio dolor adipisci, vero voluptatem iste dignissimos eos debitis omnis harum. Quidem, tempore deserunt. Voluptatum quia reprehenderit ea nobis dolore sint accusantium quos delectus esse adipisci rerum, suscipit fugiat dolor enim id eum expedita culpa deleniti corporis aperiam sapiente. Porro officiis quo voluptatem numquam, dolorum aspernatur expedita error corporis nostrum laboriosam vero recusandae nemo optio quaerat sequi rerum repellendus eius dolorem eaque repellat culpa! A id aperiam dicta atque deserunt veniam autem quia nisi. Quasi qui mollitia commodi perspiciatis quod, quia aspernatur saepe at repudiandae in placeat quo natus odio, autem provident modi beatae aperiam pariatur accusantium. Minima, odit alias recusandae sequi voluptas delectus exercitationem saepe culpa eaque laboriosam ducimus doloribus adipisci facere ullam aliquam, laudantium dolor libero itaque voluptates optio assumenda, enim nesciunt vero. Hic fugit vero optio officia modi beatae!</p></div>
+    <button id="btn" onclick="hide()">show/hide</button>
+    <script>
+
+//need to learn mouseout and over
+let para=document.getElementById('para');
+para.addEventListener('mouseover',function run(){
+alert("mouse inside");
+console.log("mouse inside");
+})
+para.addEventListener('mouseout',function run(){
+alert("mouse inside");
+console.log("mouse is outside");
+})
+
+
+        function hide(){
+let btn=document.getElementById('btn');
+let para=document.getElementById('para');
+// para.style.display="none";//to hide the paragraph , this is an css styling property
+if(para.style.display!="none"){
+    para.style.display="none"; //agr display none nhi hai toh use none kr do jo ki css mein white screen hota hai ab ek baar click krenge to woh screen white ho jayegi mtlb para.style.display none ho jayega
+    //next loop ke liye displayn none hoga toh fir woh if ki jagah else ko run krega agr element block wala jai toh  para.style.display = block likhenge agr line element hai toh para.style.display =inline aur ya inline-blok
+    //ab ye dusri baar click krne pe usse none display smjh ke usse block element bna ke open krdega
+}
+else{
+    para.style.display="block";//to open the paragraph
+}
+        }
+    </script>
+</body>
+</html>

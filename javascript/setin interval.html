@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setin interval</title>
+</head>
+<body>
+    <div class="cont">
+        the time is <span id="time"> </span>
+    </div>
+<script>
+    // console.log("lol");
+    // setTimeout allows us to runs a function once after a interval of Time
+    // clearTimeout allows us to run a function repeatedly after  a interval of time
+
+    function greet(name){
+        console.log("hello gm"+" "+name);
+    }
+    //settimeout is used to delay the output
+// setTimeout(greet,5000,"harry");//in ms or 5sec no use of greet() means not to calling out the function inside setTimeout
+
+
+// timeOut=setTimeout(greet,5000,"harry");
+// console.log(timeOut);
+// clearTimeout(timeOut); used to clear the timeOut or time delay
+
+// setInterval(greet,2000,"harry"); used to display output after  afixed interval repeatedly
+
+// intervalId=setInterval(greet,2000,"harry");
+// clearInterval(intervalId); same as to clearing the repeatedly output
+
+
+function displaytime(){
+    time=new Date();
+    console.log(time);
+    document.getElementById('time').innerHTML=time;
+
+}
+setInterval(displaytime,1000)
+
+</script>
+
+</body>
+</html>
