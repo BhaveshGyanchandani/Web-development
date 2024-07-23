@@ -1,1 +1,14 @@
 react is framework of js......
+npm or npx create-react-app app_name(not in capital letter )
+in terminal we need to do cd.. untill its C:
+then cd /D E: 
+cd E:\web dev backup\react
+then go to firstapp( app we created )
+then do npm start
+
+the readme.md is contains all the files and commands which we need to create  an app
+
+package.json will contain all the versioon and dependecnies , scripts oin this files
+
+package-lock.json contains important files and dependecnies .....or in dept information or much more information
+

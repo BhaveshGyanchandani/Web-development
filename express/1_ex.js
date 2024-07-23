@@ -22,6 +22,14 @@ app.get("/apple",(req,res)=>{ // we can use request and response
     //it means we need to give localhost:5500/apple    to get this Apple is of red color 
     res.send("Apple is of red color") // it will print on the browser on the client side
 })
+// this is how we create a router 
+
+app.get('/Home',(req,res)=>{ // we can use request and response
+    //it means we need to give localhost:5500/apple    to get this Apple is of red color 
+    res.send("This is our Home") // it will print on the browser on the client side
+})
+
+
 app.listen(port,()=>{
     console.log("server running successfully")
 })
@@ -34,3 +42,9 @@ app.listen(port,()=>{
 // this /apple is called routing
 
 //middleware is something in b/w client and server...the request and response reaches middleware before going to client or server
+
+// MVC( model view controller) is an software architecture which seperates an applications into 3 interconnected components i.e model,view and controller for developing GUI / UI to and serve and as client server requesr response...it is used to do a good mainataince of the code....it accquires a code on the basis of the request of the client and responses back to it by maintaing the code....
+
+
+
+

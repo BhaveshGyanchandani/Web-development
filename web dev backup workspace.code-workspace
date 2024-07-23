@@ -54,5 +54,8 @@
 		{
 			"path": "website"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "website"
+	}
 }
