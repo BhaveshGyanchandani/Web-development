@@ -7,6 +7,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root{
+  background-color: #282c34;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -21,11 +24,19 @@ code {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+ 
+}
+
+
 main h2 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 1.5rem 0;
-  color: #a18aba;
+  color: #8d76a7;
 }
 
 #core-concepts ul {
@@ -51,6 +62,12 @@ main h2 {
 
 #core-concepts li h3 {
   margin: 0.5rem 0;
+  color: white;
+}
+
+#core-concepts li p {
+  margin: 0.5rem 0;
+  color: rgb(163, 159, 159);
 }
 
 #core-concepts li p {
@@ -112,8 +129,15 @@ main h2 {
 
 #tab-content h3 {
   margin: 0;
+  color: white;
+}
+
+#tab-content p {
+  margin: 0;
+  color: rgb(241, 236, 225);
 }
 
 #tab-content code {
   font-size: 1rem;
+  color: rgb(241, 236, 225);
 }

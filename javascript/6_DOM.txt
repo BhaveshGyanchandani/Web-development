@@ -1,0 +1,60 @@
+// DOM selectors.....
+
+1) innerText = it is used to see the visbile UI content of the attribute selected ( it does nt show the invisbile one..)
+2)textContent = it will show both the visible and invisible content of UI.
+3) innerHTML = it will give the content of the selected tag inclding the tag nested in it...
+
+ex-> <h1 id="title">  Hello world , <span style ="Display:none "> hello there  </span> </h1>
+
+note : if a tag has class = " name head " as classname then that means that tag has both name and head classname ......ig
+
+
+( we have to select the tag first to use them )
+
+const Title = document.getElementById('title')
+
+Title.innerText
+so innerText will only show the Hello world,
+
+Title.textContent
+textContent will show the Hello world, Hello there text on console.....
+
+Title.innerHTML
+innerHTML will show  Hello world , <span style ="Display:none "> hello there  </span> ...this whole on console......
+
+
+4) query selectors - > getElementById , getElementByClassName('head) {class of the tag} , getElementByClass , getElementByTag, getElementByTagNS etc.....
+
+5) query selector -> querySelector....ex-> document.querySelector('')...it will give the one of selected query value of h2 tag/id/class etc....
+
+ex-> <h2> hello there </h2>
+<h2> hello there its</h2>
+<h2> hello there me </h2>
+<h2> hello there hello </h2>
+
+document.querySelector('h2') { we can use other tag , .id_name , #class_name, button,input etc as well the nested tag i.e tag inside a tag}
+---> <h2> hello there </h2>
+
+<ul>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+</ul>
+
+can be selected as....
+ const newUl = document.querySelector('ul')
+const newLi= newUl.querySelector('li') { to select the li inside ul....we can save it in a const or let to change its style too..*}
+newLi.style.backgroundColor = "green"
+newLi.style.padding = "10px" ...and etc...
+
+its like....document.querySelector('ul').querySelector('li').style.padding = "10px"
+the o.p of left is treated as te I/p of right....
+
+the same thing is done in map of JS.....const arr = newArray.map( (item) => new*10 ).map( (data)=> data+1 )
+
+first each item will be * by 10 then that o.p will serve as i.p of next map then increase this by 1 and save that new array in arr....
+
+
+
+6) document.querySelectorAll('li) .....watch https://youtu.be/Ab6K57WjWTE?si=g26dLUXla_GHMVRo from 23:00
+

@@ -55,6 +55,23 @@ console.log(hello("neto","fk you"));
     console.log("hello");
 };
 
+function hello(username){
+    return `${username} just logged in` //  just as we do in python f"{username}" to print the username variable value ...we use `${}` to take the username value to be printed here
+}
+
+function hello(username){
+    return `${username} just logged in` //  functioon will end when return is encountered and will retun the function the value returned...
+    // console.log("helo world") wont be executed as return was encountered before
+}
+
+
+console.log(hello()) // for no input it will put username as undefined.....as it JS usually does by assigning undefined value to unassigned parameters or varialbles
+
+function hello2(username){
+    return "{username} just logged in" //  here {username} wont work as reuturn will take this whole as a string as it is in "" double quotes....and destructuring wont work here anyway...
+}
+
+console.log(hello2("me2"))
 // arrow functin dont have functin keyword nor name....
 
 //When working with Arrow Functions, you have a couple of "syntax shortcuts" available.
@@ -104,3 +121,9 @@ console.log(hello("neto","fk you"));
 
 // number => ({ age: number }); // wrapping the object in extra parentheses
 // By wrapping the object and its curly braces with an extra pair of parentheses, JavaScript understands that the curly braces are not there to define a function body but instead to create an object. Hence that object then gets returned.
+
+
+
+// const arr = newArray.map( (item) => new*10 ).map( (data)=> data+1 )
+
+// first each item will be * by 10 then that o.p will serve as i.p of next map then increase this by 1 and save that new array in arr....

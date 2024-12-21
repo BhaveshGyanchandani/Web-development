@@ -22,3 +22,28 @@ function wow(){
     console.log(sum);
    
 }
+
+
+function hello(mister){
+
+    if(mister){ // execute if the value mister is given as an argument
+        console.log("value identified")
+    }
+
+
+    if(!mister){ // if value of mister is not ture...i.e false then execute this .....calue of mister means if the argument was not given any value then execute this
+        console.log("value not identified")
+    }
+
+    if(true){ // means execute it always
+        console.log("its true")
+    }
+
+    if(false){ // means never execute this .....
+        console.log("its false")
+    } // it wont get executed
+    return mister
+}
+
+hello("me")
+hello() // it means the value of parameter mister is false.....
