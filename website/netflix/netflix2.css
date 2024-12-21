@@ -1,0 +1,1014 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.header {
+
+    height: 728px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("netflix4.png");
+    position: relative;
+    background-size: cover;
+
+
+
+}
+
+nav {
+    margin: -27px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.logo {
+
+    margin: 20px 0px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.logocont {
+    margin: 0px 4px;
+    padding: 0px;
+}
+
+.sign {
+    font-weight: 200;
+    font-size: medium;
+    background-color: red;
+    color: white;
+    height: 32px;
+    width: 85px;
+    border-radius: 6px;
+
+}
+
+#lang {
+    margin: 10px 20px;
+    color: white;
+    height: 32px;
+    width: 125px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lang1 {
+    background-color: antiquewhite;
+    /* margin: 10px; */
+    color: rgb(7, 7, 7);
+    /* height: 32px;
+    width: 115px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px; */
+}
+
+
+.btn {
+    margin: 0px 53px;
+    position: relative;
+    top: -3px;
+    left: 44px;
+}
+
+.btn2 {
+    margin: 22px 0px 8px 0px;
+    
+}
+#lang2{
+    margin: 0px 0px;
+    color: white;
+    height: 32px;
+    width: 125px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.sign:hover {
+    cursor: pointer;
+}
+
+.hero {
+    margin: auto auto 65px auto;
+    height: 85%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.option {
+    padding: 14px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center; */
+
+}
+
+#text {
+    padding: 6px 0px 5px 5px;
+    width: 364px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: rgb(194, 193, 193);
+    font-weight: 500;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#text2 {
+    padding: 6px 0px 5px 5px;
+    width: 364px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(20, 18, 18);
+    color: rgb(194, 193, 193);
+    font-weight: 500;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+#get {
+    padding: 8px 15px 15px 2px;
+    margin: 0px 3px;
+    width: 210px;
+    height: 58px;
+    background-color: red;
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    border-radius: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sepration {
+    height: 8px;
+    background-color: rgba(44, 42, 42, 0.884);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    justify-content: center;
+}
+
+.second {
+    flex-direction: column;
+    height: 578px;
+    justify-content: center;
+}
+
+.third {
+    flex-direction: column;
+    height: 525px;
+    justify-content: center;
+}
+
+.fourth {
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+}
+
+.fifth {
+    padding: 67px 0px;
+    min-height: 830px;
+}
+
+.sixth{
+    height: 330px;
+}
+
+.newtv {
+    /* margin: 28px 330px;
+    display: flex;
+    /* max-width: 90vw; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    flex-basis: 50%;
+    margin: 28px auto;
+    display: flex;
+    max-width: 90vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newtv2 {
+    /* margin: 52px 360px;
+    display: flex;
+    max-width: 90vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    height: 525px;
+    flex-basis: 50%;
+    margin: 28px auto;
+    display: flex;
+    max-width: 90vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newtv3 {
+    margin: 52px 335px;
+    display: flex;
+    max-width: 90vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.newtv4 {
+    margin: 52px 335px;
+    display: flex;
+    max-width: 90vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.newtv6{
+    margin: 43px 18%;
+    min-width: 248px;
+    padding:0px 21px;
+    height: 250px;
+    position: relative;
+    top: -9px;
+}
+
+.call{
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(170, 172, 173);
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+.quesfoot{
+    display: flex;
+padding: 0px 2px;
+margin: 16px 0px 0px 0px;
+cursor: pointer;
+flex-wrap:  wrap;
+
+}
+
+ul.quesfoot li{
+    min-width:284px;
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    color: rgb(170, 172, 173);
+}
+.para {
+    width: 620px;
+    /* max-width: 60vw; */
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.para2 {
+    width: 595px;
+    max-width: 60vw;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.para3 {
+    width: 700px;
+    max-width: 60vw;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.para4 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.data5 {
+    display: flex;
+    flex-direction: column;
+    margin: -42px 0px;
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 28px;
+}
+
+
+.div1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width:1185px;
+padding: 0px 0px;  /* mine added*/
+}
+
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgba(61, 59, 59, 0.767);
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    height: 41px;
+}
+.content{
+    font-size:25px;
+}
+input[type="radio"] {
+    display: none;
+}
+
+ .accordion label:hover {
+    background-color: rgb(68, 66, 66);
+    transition: all 0.3s;
+} 
+
+label::after {
+    content: "+";
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+.accordion .content{
+    background-color: rgba(61, 59, 59, 0.767);
+    text-align: left;
+    padding: 0 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 5px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+
+.secImG {
+
+    height: 400px;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    /* changed ffrom row*/
+    justify-content: right;
+    position: relative;
+    top: 5px;
+    left: -4px;
+    /*-38 to -4*/
+}
+
+.secImG2 {
+
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    top: -4px;
+    z-index: 1;
+    left: 1px;
+}
+
+.secImG3 {
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    left: -21px;
+}
+
+video {
+    max-width: 73%;
+    position: absolute;
+    top: 76px;
+    left: 70px;
+    right: 00px;
+    z-index: -1;
+}
+
+#vid {
+    max-width: 63%;
+    position: absolute;
+    top: 34px;
+    left: 100px;
+    right: 00px;
+    z-index: -1;
+
+}
+
+
+#span1 {
+
+    font-weight: 900;
+    font-size: 47px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#span2 {
+    padding: 14px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#span3 {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#span4 {
+    margin: 26px 0px 40px 0px;
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+#span5 {
+    margin: 0px 0px;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#span6 {
+    margin: 0px 0px;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#span7 {
+    margin: 0px 25px;
+    font-size: 51.5px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#span8 {
+    margin: 0px 26px;
+    font-size: 51px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#span9 {
+    margin: 20px 35px 35px 20px;
+    padding: 0px 0px;
+    font-size: 21px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#span10 {
+    margin: 0px 26px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#span11 {
+    margin: 0px 25px;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#span12 {
+    margin: 20px 26px 4px 26px;
+    padding: 0px 0px;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#span13 {
+    margin: 0px 20px;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#span14 {
+    margin: 20px 26px 4px 26px;
+    padding: 0px 0px;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.span17{
+    font-size: 14px;
+    font-weight: 100;
+    color:  rgb(170, 172, 173);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mobox {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    background-color: black;
+    width: 320px;
+    height: 100px;
+    border: 2px solid rgb(97, 95, 95);
+    top: 300px;
+    left: 125px;
+    bottom: 0px;
+    border-radius: 11px;
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png);
+    background-repeat: no-repeat;
+    background-size:20%; */
+}
+
+#img2 {
+    padding: 5px 10px 15px 14px;
+    height: 85px;
+    width: 57px;
+}
+
+#name {
+    margin: 0px 0px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Download {
+    margin: 0px 0px;
+    font-size: 15px;
+    color: rgb(37, 37, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, V
+}
+
+#content {
+    margin: 0px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+@media (max-width:900px) {
+
+    #text {
+        width: 308px;
+    }
+
+    .first {
+        /* flex-direction: column; */
+        height: 514px;
+        justify-content: left;
+    }
+
+
+    .newtv {
+        /* flex-basis: 50%; */
+        /* margin: 28px auto; */
+        /* display: flex; */
+        /* max-width: 90vw; */
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .secImG {
+        /*min-width: 30px;
+        height: 500px;
+        display: flex; */
+        /* flex-direction: column; */
+        height: 1px;
+        position: relative;
+        top: 5px;
+        left: -4px;
+        flex-wrap: wrap;
+    }
+
+    .para {
+        width: 392px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #span4 {
+        margin: 15px 0px;
+        text-align: center;
+        font-size: 29px;
+
+
+    }
+
+    #span5 {
+        font-size: 19px;
+        margin: 0px 0px 0px 7px;
+        text-align: center;
+        width: 375px;
+    }
+
+    #tv {
+        position: relative;
+        top: 5px;
+        left: 11px;
+        height: 263px;
+        /* width: 100px; */
+    }
+
+    video {
+
+        top: 60px;
+        left: 55px;
+
+    }
+}
+
+@media (max-width:700px) {
+    .newtv2 {
+        height: 472px;
+        flex-basis: 50%;
+        margin: 28px auto;
+        display: flex;
+        max-width: 90vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secImG2 {
+        height: 487px;
+
+        position: relative;
+        top: -1px;
+        z-index: 1;
+        left: 2px;
+    }
+
+    #span7 {
+        width: 364px;
+        /* 357 to 4364 */
+        margin: 16px 1px 17px -44px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+
+    .para2 {
+        width: 700px;
+        max-width: 70vw;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #span9 {
+        margin: 21px -45px 8px -30px;
+        font-size: 17px;
+
+    }
+
+    #mob {
+        position: relative;
+        top: 19px;
+        left: -1px;
+        height: 263px;
+        /* width: 100px; */
+    }
+
+    .mobox {
+
+        width: 265px;
+        height: 61px;
+        top: 197px;
+        left: 38px;
+        bottom: 0px;
+    }
+
+    #name {
+
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    #Download {
+        font-size: 14px;
+        color: rgb(70 202 221);
+
+    }
+
+    #img2 {
+        padding: 5px 2px 15px 9px;
+        height: 46px;
+        width: 40px;
+    }
+}
+
+
+
+
+@media (min-width:700px) and (max-width:960px) {
+    .newtv2 {
+        height: 662px;
+        flex-basis: 50%;
+        margin: 28px auto;
+        display: flex;
+        max-width: 90vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secImG2 {
+        height: 501px;
+        position: relative;
+        top: 10px;
+        z-index: 1;
+        left: 2px;
+    }
+
+    #span7 {
+        width: 582px;
+        margin: -10px 6px -4px -25px;
+        /*38 to -25*/
+        font-size: 34px;
+        text-align: center;
+    }
+
+
+    .para2 {
+        width: 700px;
+        max-width: 70vw;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #span9 {
+        margin: 21px -45px 7px -55px;
+        font-size: 16px;
+
+    }
+
+    #mob {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        height: 487px;
+        /* width: 100px;*/
+    }
+
+    .mobox {
+
+        width: 404px;
+        height: 81px;
+        top: 370px;
+        left: 120px;
+        bottom: 0px;
+    }
+
+    #name {
+
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    #Download {
+        font-size: 14px;
+        color: rgb(70 202 221);
+
+    }
+
+    #img2 {
+        padding: 10px 5px 14px 13px;
+        height: 62px;
+        width: 48px;
+    }
+}
+
+@media (min-width:300px) and (max-width:959px) {
+    .newtv3 {
+        margin: 52px 335px;
+        display: flex;
+        max-width: 90vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img3 {
+
+        width: 336px;
+        height: 265px;
+    }
+
+    .secImG3 {
+        height: 267px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        position: relative;
+        top: -18px;
+        z-index: -1;
+        left: -1px;
+    }
+
+    #span11 {
+        margin: 4px -59px;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .para3 {
+        width: 234px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #span12 {
+        display: flex;
+        margin: 17px -57px 43px -49px;
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+        height: 491px;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width:300px) and (max-width:959px) {
+    .newtv4 {
+        margin: 52px 335px;
+        display: flex;
+        max-width: 90vw;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img4 {
+
+        width: 336px;
+        height: 265px;
+    }
+
+    .secImG4 {
+        height: 267px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        position: relative;
+        top: -18px;
+        z-index: -1;
+        left: -1px;
+    }
+
+    #span11 {
+        margin: 4px -59px;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .para4 {
+        width: 234px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #span12 {
+        display: flex;
+        margin: 17px -57px 43px -49px;
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .fourth {
+        display: flex;
+        flex-direction: column;
+        height: 491px;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+    }
+
+    #span13 {
+        margin: 4px -59px;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #span14 {
+        display: flex;
+        margin: 17px -57px 43px -49px;
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
