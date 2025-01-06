@@ -1,0 +1,94 @@
+/* Styling for the <li> container for each item in the list */
+.Items_list {
+    list-style: none; /* Remove default list styles */
+    margin: 10px 0; /* Space between items */
+    padding: 10px; /* Inner spacing */
+    border: 1px solid #ddd; /* Light border around each item */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fdfdfd; /* Light background for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between child elements */
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* General container for cart items */
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Styling for the product image */
+.cart img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+}
+
+/* Details about the item */
+.about_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1; /* Allows the details to take up the remaining space */
+}
+
+.about_item span {
+    color: #333;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+/* Quantity adjustment buttons */
+.change_quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.change_quantity button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.change_quantity button:hover {
+    background-color: #0056b3;
+}
+
+.change_quantity span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Items container */
+.Items {
+    width: 80%; /* Adjusts the width of the overall container */
+    margin: 20px auto; /* Center the container */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between list items */
+}
+
+/* Empty cart message styling */
+.Items p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    text-align: center;
+    margin: 20px 0;
+}

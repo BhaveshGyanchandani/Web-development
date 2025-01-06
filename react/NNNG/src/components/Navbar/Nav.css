@@ -1,0 +1,76 @@
+nav {
+    margin: 0;
+    position: sticky;
+    top: 0; /* Ensure the nav sticks to the top */
+    width: 100%; /* Full width */
+    background-color: #fff; /* Optional: background color */
+    z-index: 100; /* Optional: ensure it's above other elements */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  #prenav {
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: #131921;
+    height: 61px;
+    display: flex;
+    justify-content: space-around; /* Distribute items equally */
+  }
+  
+  
+  #delivery {
+    color: white;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+    display: flex;
+    width: 70px;
+  
+  }
+  
+  
+  #logo {
+    width: 140px;
+  }
+  
+  #all {
+    background-color: #27303d;
+    height: 52px;
+  }
+  
+  
+#button_sign_in {
+    width: 230px;
+    height: 30px;
+    cursor: pointer;
+    margin: 3px 0px 7px 0px;
+    background-color: rgb(253, 178, 39);
+    border: none;
+    border-radius: 5px;
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+
+  
+
+
+#devlogo {
+    height: 18px;
+    width: 17.8px;
+    margin: 26px 0px 0px 0px;
+  
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 71px;
+    padding-top: 38px;
+  }
+  

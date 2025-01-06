@@ -1,0 +1,110 @@
+/* Container styles */
+.initial_box {
+    border: 2px solid #ddd; /* Soft border for a polished look */
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+}
+
+/* List styles */
+.initial_box ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+}
+
+/* List item styles */
+.initial_box ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+    width: calc(20% - 20px); /* 20% width minus gap for responsiveness */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.initial_box ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Rectangular Image styles */
+.initial_box ul li img {
+    height: 120px;
+    width: 100%; /* Full width of the li */
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+    object-fit: cover; /* Ensure the image covers the space properly */
+}
+
+/* Description container */
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Text styles */
+.description span {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    display: block; /* Ensure each span is block-level element */
+}
+
+.description span:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.description span:last-child {
+    color: #d9534f; /* Red color for discount text */
+}
+
+/* Add to Cart button styles */
+.add-to-cart {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5cb85c; /* Green color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width of the li to fit inside the description area */
+}
+
+.add-to-cart:hover {
+    background-color: #4cae4c;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.add-to-cart:active {
+    background-color: #449d44; /* Slightly darker green on click */
+}

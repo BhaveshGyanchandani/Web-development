@@ -1,0 +1,47 @@
+.nav-right {
+    display: flex;
+    flex-direction: row;
+  }
+  .signIN {
+    color: white;
+  
+    padding: 20px 5px;
+    cursor: pointer;
+    text-align: left;
+    width: 50px;
+    
+  
+  }
+  
+  .signIN:hover,
+  #delivery:hover,
+  .return:hover,
+  #cart:hover,
+  .language:hover,
+  #logo:hover {
+    border: 1px solid white;
+  }
+  
+  
+  #cart {
+    cursor: pointer;
+    width: 82px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #Cart {
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  
+  #carticon {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+  }

@@ -1,0 +1,107 @@
+.sidebar {
+    position: fixed; /* Keeps the sidebar fixed on the viewport */
+    top: 0px; /* Aligns it to the top of the viewport */
+    left: 0px; /* Ensures it starts from the left */
+    width: 350px; /* Defines the width of the sidebar */
+    height: 100vh; /* Makes the sidebar span the entire height of the viewport */
+    border: 1px solid black; /* Adds a black border */
+    background-color: white; /* Sets the background color to white */
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    z-index: 1000; /* Ensures the sidebar appears above other content */
+  }
+  
+  
+  .Hello{
+    color : black;
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    
+    background-color: #007185;
+    
+  }
+  
+  .Hello span {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 9px 20px;
+    
+  }
+  
+  
+  .Hello_sign{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .Hello img{
+    width: 50px;
+    height: 43px;
+  }
+
+  .sidebar div ul{
+    color : black;
+  }
+
+  .close {
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    right: 0px;
+    left: 349px;
+    padding: 0px 0px;
+  }
+
+
+
+/* Overlay Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 1000; /* Below the sidebar */
+  }
+
+ul{
+  list-style: none;
+}
+
+  .sidebar-name{
+    font-size: 23px;
+    font-weight: bold;
+    
+  }
+
+
+  .sidebar_ul{
+  margin: 50px 0px;
+  }
+  
+.Sidebar_item{
+    font-size: 15px;
+    height: 40px;
+    margin: 3px 0px;
+    display: flex;
+    align-items: center;
+}
+
+  .Sidebar_item:hover{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+  }
+
+
+  .sidebar_ul a {
+    color: black;
+  }
+
+  br{
+    color: black;
+  }

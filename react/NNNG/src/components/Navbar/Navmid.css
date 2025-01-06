@@ -1,0 +1,58 @@
+.nav-belt {
+    display: flex;
+    flex-direction: row;
+    width: 62vw;
+    margin: auto 0px;
+    height: 41px;
+  
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #searchlogo {
+    background-color: rgb(236, 186, 91);
+    width: 44px;
+    height: 40px;
+    margin-top: 1px;
+    border-radius: 0px 4px 4px 0px;
+  
+  }
+  
+  #searchlogo1 {
+    display: flex;
+    width: 26px;
+    height: 24px;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 11px;
+  }
+  
+  #searchlogo:hover {
+    background-color: rgb(231, 163, 35);
+  }
+
+  
+#search {
+    width: 1024px;
+    background-color: white;
+    margin-top: 1px;
+    height: 40px;
+    border: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #search {
+        width: 80%; /* or a percentage based on the available width */
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #search {
+        width: 80%; /* or a percentage based on the available width */
+    }
+  }
+  

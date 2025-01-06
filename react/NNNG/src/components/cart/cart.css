@@ -1,0 +1,36 @@
+/* Container for the cart and price sections */
+.cart-container {
+    display: flex;
+    flex-direction: row; /* Arrange children horizontally */
+    justify-content: space-between; /* Space out the children */
+    align-items: flex-start; /* Align children at the top */
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for the cart list section */
+.cart-container .Items {
+    flex: 3; /* Take up more space than the price section */
+    width: 80%; /* Optional: Limit width if needed */
+}
+
+/* Styling for the price section */
+.cart-container .price {
+    flex: 1; /* Take up less space than the cart list */
+    width: 30%; /* Optional: Set a fixed width */
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    position: sticky;
+    height: fit-content;
+    margin-top: 32px;
+    top: 115px;
+    right: 0px;
+}

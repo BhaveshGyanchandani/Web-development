@@ -18,13 +18,13 @@ const server = http.createServer((req, res) => {
     res.end(home);
   }
   else if(url=='/about'){
-    res.end(about);
+    res.end("about code ");
   }
   else if(url=='/contact'){
-    res.end(contact);
+    res.end("contact");
   }
   else if(url=='/services'){
-    res.end(services);
+    res.end("services");
   }
   else {
     res.statusCode;404;

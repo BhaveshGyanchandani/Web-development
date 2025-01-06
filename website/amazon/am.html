@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com - Spend Less, Smile More</title>
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/bokehlicia/pacifica/72/amazon-icon.png">
+    <style>
+        body {
+            background-color: rgb(230, 240, 247);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 0.5em;
+        }
+
+        #logo img {
+            height: 28px;
+        }
+
+        .nav-left,
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-belt {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            gap: 0.5em;
+        }
+
+        #search {
+            flex-grow: 1;
+            height: 2.5em;
+        }
+
+        #searchlogo {
+            height: 2.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 1em;
+            background-color: rgb(236, 186, 91);
+            cursor: pointer;
+        }
+
+        #searchlogo:hover {
+            background-color: rgb(231, 163, 35);
+        }
+
+        .nav-right div {
+            padding: 0.5em;
+            cursor: pointer;
+        }
+
+        .nav-right div:hover {
+            border: 1px solid white;
+        }
+
+        .contentbox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1em;
+            padding: 1em;
+        }
+
+        .li1 {
+            background-color: white;
+            width: calc(100% - 2em);
+            max-width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .li1 img {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #131921;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        @media (min-width: 768px) {
+            .nav-belt {
+                justify-content: flex-start;
+            }
+
+            .contentbox {
+                justify-content: space-around;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .nav-belt {
+                gap: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <img src="https://companieslogo.com/img/orig/AMZN_BIG.D-8fb0be81.png?t=1632523695" alt="Amazon Logo">
+        </div>
+        <div class="nav-belt">
+            <input id="search" type="search" placeholder="Search Amazon">
+            <div id="searchlogo">Search</div>
+        </div>
+        <div class="nav-right">
+            <div>Sign In</div>
+            <div>Orders</div>
+            <div>Cart</div>
+        </div>
+    </nav>
+
+    <div class="contentbox">
+        <div class="li1">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" alt="Gaming Accessories">
+            <div>Gaming Accessories</div>
+        </div>
+        <div class="li1">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" alt="Keyboards">
+            <div>Keyboards</div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 1996-2024, Amazon.com, Inc. or its affiliates
+    </footer>
+</body>
+
+</html>

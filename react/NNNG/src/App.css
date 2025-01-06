@@ -1,0 +1,19 @@
+#root {
+  height: 100vh;
+  width: 101%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0;
+  overflow-y: scroll; /* Ensures a scrollbar always appears */
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+

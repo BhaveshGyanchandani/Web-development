@@ -1,0 +1,21 @@
+.dropdown-toggle {
+    background-color: #131921;
+    color: white;
+    padding: 9px 20px;
+    cursor: pointer;
+    border-radius : 4px 0px 0px 4px ;
+    border: 1px white solid;
+  }
+
+  @media screen and (max-width: 610px) {
+
+    .dropdown-toggle{
+      width: 30px;
+      padding: 9px 0px;
+    }
+
+    .dropdown-span{
+      font-size: 10px;
+    }
+    
+  }

@@ -1,0 +1,112 @@
+  /* Content.css */
+
+  .contentbox {
+    margin: 20px auto;
+    padding: 10px;
+    width: 93%;
+    /* Ensure it does not exceed the viewport */
+    max-width: 1200px;
+    /* For large screens */
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 50px;
+    z-index: 3;
+  }
+  
+  /* List styles */
+  .ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .li1 {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for each content item */
+  .content_heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 33px;
+  }
+  
+  /* Settings for the items */
+  .item_setting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  
+  /* Each item's container */
+  .item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 48%;
+    max-width: 48%;
+    margin-bottom: 10px;
+    /* text-align: center; */
+  }
+  
+  .section_logo {
+    width: 100%;
+    min-width: 235px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .section_logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Pre-item wrapper */
+  .preitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Name displayed below items */
+  .item_name {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #555;
+    margin-top: 10px;
+    /* text-align: center; */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .item {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .contentbox {
+      padding: 10px;
+    }
+  
+    .content_heading {
+      font-size: 1rem;
+    }
+  }
+  
+  
