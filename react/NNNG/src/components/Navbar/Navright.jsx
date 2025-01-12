@@ -1,14 +1,18 @@
+import { useContext } from 'react'
 import './Navright.css'
 import { Link } from 'react-router-dom'
+import { CartContext } from '../../ContextHooks'
 export default function Navright() {
 
+  const {Items} = useContext(CartContext)
+  
   return (
     <>
       <div className="nav-right">
         <div className="signIN">
           <span id="Hello">Sign in</span><br />
         </div>
-        <Link to="/cart">
+        <Link style={{width:"44px"}} to="/cart">
         <div id="cart">
           <svg id="carticon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
             width="24" height="24" color="#fefefe" fill="none">
@@ -28,7 +32,7 @@ export default function Navright() {
             <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor"
               strokeWidth="1.5" />
           </svg>
-          <span id="Cart">cart</span>
+            <p>{Items.items.length>0 ? Items.items.length : '' }</p>
         </div>
         </Link>
       </div>

@@ -1,0 +1,82 @@
+.button_logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 0px;
+    /* transform: translateY(-20%); */
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 3% 0%;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+.button_logo button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content_button_logo {
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* top: 30%; */
+    top: 55px;
+    width: 100%;
+    height: 0px;
+    /* transform: translateY(-20%); */
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 3% 0%;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+.content_button_logo button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.DKUL_button {
+    display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 42px;
+        width: 100%;
+        height: 0px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        margin: 0%;
+        z-index: 4;
+        justify-content: space-between;
+}
+
+
+.DKUL_button button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button_logo button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    /* Slight enlargement on hover */
+}

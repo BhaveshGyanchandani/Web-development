@@ -1,0 +1,512 @@
+[
+    {
+        "product": "Dinner set",
+        "Data": [
+            {
+                "name": "32pcs Dinner Set",
+                "src":"https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151",
+                "HoveredState":false,
+                "HoveredSrc":"https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "D1_1",
+                            "InitialPrice": 20,
+                            "Discount": 50,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    },
+                    {
+                        "size": 500,
+                        "DataSize": {
+                            "id": "D1_2",
+                            "InitialPrice": 40,
+                            "Discount": 40,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                
+                            ]
+                        }
+                    },
+                    {
+                        "size": 1000,
+                        "DataSize": {
+                            "id": "D1_3",
+                            "InitialPrice": 60,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                                
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Dinner Plate Set (6pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "D2",
+                            "InitialPrice": 25,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Cooking Pot Set (3pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "D3",
+                            "InitialPrice": 30,
+                            "Discount": 40,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Non-Stick Pan Set (2pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "D4",
+                            "InitialPrice": 24,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Serving Tray Set (3pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id":"D5",
+                            "InitialPrice": 15,
+                            "Discount": 40,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "product": "Office Lunch Box",
+        "Data": [
+            {
+                "name": "Office Lunch Box (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "OLB1",
+                            "InitialPrice": 15,
+                            "Discount": 20,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Insulated Office Lunch Box",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "OLB2",
+                            "InitialPrice": 25,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Thermal Steel Office Lunch Box",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "OLB3",
+                            "InitialPrice": 35,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Leakproof Office Lunch Box",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "OLB4",
+                            "InitialPrice": 20,
+                            "Discount": 15,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Bento Office Lunch Box",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "OLB5",
+                            "InitialPrice": 22,
+                            "Discount": 20,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "product": "Kids Lunch Box",
+        "Data": [
+            {
+                "name": "Kids' Lunch Box Set (3pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "KLB1",
+                            "InitialPrice": 18,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Insulated Lunch Box (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "KLB2",
+                            "InitialPrice": 25,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Thermal Steel Lunch Box (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "KLB3",
+                            "InitialPrice": 35,
+                            "Discount": 35,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Leakproof Lunch Box (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "KLB4",
+                            "InitialPrice": 20,
+                            "Discount": 20,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Bento Lunch Box (2pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "KLB5",
+                            "InitialPrice": 22,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "product": "Thermosteel Bottles",
+        "Data": [
+            {
+                "name": "1L Thermosteel Bottle",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "TB1",
+                            "InitialPrice": 30,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "750ml Thermosteel Bottle",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "TB2",
+                            "InitialPrice": 25,
+                            "Discount": 20,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "300ml Thermosteel Bottle",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "TB3",
+                            "InitialPrice": 20,
+                            "Discount": 15,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1.5L Thermosteel Bottle",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "TB4",
+                            "InitialPrice": 35,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Leakproof Thermosteel Bottle",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "TB5",
+                            "InitialPrice": 28,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
+                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
+                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "product": "Bottles",
+        "Data": [
+            {
+                "name": "Glass Bottle Set (6pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "B1",
+                            "InitialPrice": 25,
+                            "Discount": 30,
+                            "images": [
+                                { "red": "https://www.example.com/glass_bottle_red.jpg" },
+                                { "blue": "https://www.example.com/glass_bottle_blue.jpg" },
+                                { "green": "https://www.example.com/glass_bottle_green.jpg" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Plastic Water Bottle (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "B2",
+                            "InitialPrice": 10,
+                            "Discount": 10,
+                            "images": [
+                                { "red": "https://www.example.com/plastic_bottle_red.jpg" },
+                                { "blue": "https://www.example.com/plastic_bottle_blue.jpg" },
+                                { "green": "https://www.example.com/plastic_bottle_green.jpg" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Stainless Steel Water Bottle (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "B3",
+                            "InitialPrice": 20,
+                            "Discount": 15,
+                            "images": [
+                                { "red": "https://www.example.com/steel_bottle_red.jpg" },
+                                { "blue": "https://www.example.com/steel_bottle_blue.jpg" },
+                                { "green": "https://www.example.com/steel_bottle_green.jpg" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Thermal Flask (1pc)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "B4",
+                            "InitialPrice": 35,
+                            "Discount": 20,
+                            "images": [
+                                { "red": "https://www.example.com/thermal_flask_red.jpg" },
+                                { "blue": "https://www.example.com/thermal_flask_blue.jpg" },
+                                { "green": "https://www.example.com/thermal_flask_green.jpg" }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Reusable Glass Bottles (4pcs)",
+                "SubData": [
+                    {
+                        "size": 300,
+                        "DataSize": {
+                            "id": "B5",
+                            "InitialPrice": 30,
+                            "Discount": 25,
+                            "images": [
+                                { "red": "https://www.example.com/reusable_glass_red.jpg" },
+                                { "blue": "https://www.example.com/reusable_glass_blue.jpg" },
+                                { "green": "https://www.example.com/reusable_glass_green.jpg" }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    
+    
+    
+    
+]

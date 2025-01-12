@@ -1,0 +1,14 @@
+.MI{
+    border: 1px solid black;
+    width: 35%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: sticky;
+    z-index: 0;
+    top: 198px;/* Add scrolling if content exceeds height */
+}

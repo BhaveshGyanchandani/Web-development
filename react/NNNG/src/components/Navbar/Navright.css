@@ -25,7 +25,8 @@
   
   #cart {
     cursor: pointer;
-    width: 82px;
+    width: 50px;
+    height: 55px;
     display: flex;
     flex-direction: row;
   }

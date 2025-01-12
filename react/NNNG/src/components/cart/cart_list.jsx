@@ -1,20 +1,14 @@
 import { useContext, useEffect } from "react";
-import { Cart_items } from "../../App";
+import { CartContext } from "../../ContextHooks";
 import "./cart_list.css";
 
 export function Cart_list() {
-    const { Items, setItems } = useContext(Cart_items); // Get `Items` and `setItems` from context
+    const { Items, setItems } = useContext(CartContext); // Get `Items` and `setItems` from context
 
-    // Load Items from localStorage on component mount
-    useEffect(() => {
-        const storedCart = window.localStorage.getItem("cartItems");
-        if (storedCart) {
-          setItems(JSON.parse(storedCart)); // Parse and update Items from localStorage
-        }
-      }, [setItems]); // Dependency array includes `setItems` to ensure effect runs on component mount
+    // useEffect(() => {
+    //     window.localStorage.setItem("cartItems", JSON.stringify(Items));
+    // }, [Items]);
     
-
-
     function handleItemQuantity(productId, amount) {
         setItems((prevShoppingCart) => {
             const updatedItems = [...prevShoppingCart.items];

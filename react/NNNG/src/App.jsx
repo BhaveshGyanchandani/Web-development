@@ -1,44 +1,84 @@
+// import './App.css';
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { Home } from './Home';
+// import { createContext, useEffect, useState } from "react";
+// import { Item_template } from "./components/Mid/item_box_anchor/Item_template.jsx";
+// import { Brand_template } from "./components/Mid/item_box_anchor/Brand_template.jsx";
+// import { Cart } from './components/cart/cart';
+// import { Individual_Item_template } from './components/Mid/item_box_anchor/Individual_Products/Individual_Item_template.jsx'
+// import { CartContext } from './ContextHooks.jsx';
+// import { Test } from './test.jsx';
+// import { Footer } from './components/Footer/Footer.jsx';
+
+// const router = createBrowserRouter([
+//   { path: '/', element: <Home /> },
+//   { path: '/:id', element: <Item_template /> },
+//   { path: '/:id/:aboutId', element: <Individual_Item_template /> },
+//   { path: '/cart', element: <Cart /> },
+//   { path: '/Home/:Brands', element: <Brand_template /> },
+//   { path: '/test', element: <Footer /> },
+// ]);
+
+// // Rename Cart_items to CartContext
+// // @vite-ignore-hmr
+
+
+
+// function App() {
+//   const [Items, setItems] = useState({ items: [] });
+//   useEffect(() => {
+//     const storedCart = window.localStorage.getItem("cartItems");
+//     if (storedCart) {
+//         setItems(JSON.parse(storedCart)); // Load cartItems from localStorage
+//     }
+//   }, [setItems]);
+  
+//   // Save Items to localStorage whenever it changes
+//   useEffect(() => {
+//     window.localStorage.setItem("cartItems", JSON.stringify(Items));
+//   }, [Items]);
+
+//   // NOTE : useEffect in Item_template is important on those jsx where ADD TO CARRT is used.....we needto plave that in order to save the data in local storage and then the Cart can get those Items
+
+//   return (
+//     <>
+//       <CartContext.Provider value={{ Items, setItems }}>
+//         <RouterProvider router={router} />
+//       </CartContext.Provider>
+//     </>
+//   );
+// }
+
+// export default App;
+
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home } from './Home';
-import { createContext, useEffect, useState } from "react";
 import { Item_template } from "./components/Mid/item_box_anchor/Item_template.jsx";
+import { Brand_template } from "./components/Mid/item_box_anchor/Item_By_Brand/Brand_template.jsx";
 import { Cart } from './components/cart/cart';
+import { Individual_Item_template } from './components/Mid/item_box_anchor/Individual_Products/Individual_Item_template.jsx';
+import { CartProvider } from './ContextHooks.jsx';
+import { Footer } from './components/Footer/Footer.jsx';
+import { See_More_of_Brand_Item } from './components/Mid/item_box_anchor/Item_By_Brand/See_More_of_Brand.jsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
-  { path: '/Products/:id', element: <Item_template /> },
+  { path: '/:id', element: <Item_template /> },
+  { path: '/:id/:aboutId', element: <Individual_Item_template /> },
   { path: '/cart', element: <Cart /> },
+  { path: '/Home/:Brands', element: <Brand_template /> },
+  { path: '/test', element: <Footer /> },
+  {path:'/Home/:Brands/:SeeMore' ,element:<See_More_of_Brand_Item />}
 ]);
 
-export const Cart_items = createContext();
-
-
-
 function App() {
-
-  
-// useEffect(() => {
-//   const handleBeforeUnload = (event) => {
-//     // Display a warning message
-//     event.preventDefault();
-//     event.returnValue = "The cart data will be reseted"; // This triggers the browser's default warning dialog
-//   };
-
-//   window.addEventListener("beforeunload", handleBeforeUnload);
-
-//   return () => {
-//     window.removeEventListener("beforeunload", handleBeforeUnload);
-//   };
-// }, []);
-
-  const [Items, setItems] = useState({ items: [] });
-
   return (
-    <Cart_items.Provider value={{ Items, setItems }}>
+    <CartProvider>
       <RouterProvider router={router} />
-    </Cart_items.Provider>
+    </CartProvider>
   );
 }
 
 export default App;
+

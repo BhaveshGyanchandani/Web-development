@@ -1,24 +1,42 @@
-import { useContext, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { Cart_items } from "../../../App";
+import { useContext, useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { CartContext } from "../../../ContextHooks";
 import Nav from "../../Navbar/Nav";
 import "./Item_template.css";
-
-import { Bottles,Dinner_set,Kids_Lunch_Box,Office_Lunch_Box,Thermosteel_Bottles} from "../../Datasets/Products/Products";
-
+// import { Product } from "../../Datasets/Products/Product";
+import { Product } from "../../Datasets/Products/Final_Test_Product";
 
 export function Item_template() {
   const { id } = useParams();
-  const { Items, setItems } = useContext(Cart_items);
+  const { Items, setItems } = useContext(CartContext);
 
- 
-  // Save Items to localStorage whenever it changes
-  useEffect(() => {
-    window.localStorage.setItem("cartItems", JSON.stringify(Items)); // Save entire Items object
-    
-  }, [Items]);
+  // const [hoveredItemName , setHoveredItemId] = useState("aj")
 
-  function onAddItem(item) {
+  // const handleMouseEnter = (name) => setHoveredItemId(name);
+  //   const handleMouseLeave = () => setHoveredItemId("");
+
+  //   const ArrowIcon = ({ isHovered , item}) => (
+  //     console.log(item)
+  //     // {isHovered ? item.src : item.HoveredSrc }
+  //   );
+  
+  
+
+  // // Load Items from localStorage on component mount
+  // useEffect(() => {
+  //   const storedCart = window.localStorage.getItem("cartItems");
+  //   if (storedCart) {
+  //     setItems(JSON.parse(storedCart)); // Load cartItems from localStorage
+  //   }
+  // }, [setItems]);
+
+  // // // Save Items to localStorage whenever it changes
+  // useEffect(() => {
+  //   window.localStorage.setItem("cartItems", JSON.stringify(Items));
+  // }, [Items]);
+
+   function onAddItem(item) {
+
     setItems((prevShoppingCart) => {
       const updatedItems = [...prevShoppingCart.items];
       const existingCartItemIndex = updatedItems.findIndex(
@@ -49,39 +67,49 @@ export function Item_template() {
     });
   }
 
-  const Data = {
-    Bottles,
-    Dinner_set,
-    Kids_Lunch_Box,
-    Office_Lunch_Box, Thermosteel_Bottles
-  };
-  const MapData = Data[id] || [];
-
-
+  const first_slice = Product.find((item) => item.product === id).Data
+  
+  // const second_slice = Product.find((item) => item.product === id).Data[0].SubData[0].DataSize
+  
   return (
     <>
       <Nav />
       <div className="initial_box">
-        <ul>
-          {MapData.map((item) => (
-            <li key={item.id}>
-              <img src={item.src || "/default-image.jpg"} alt="image not available" />
-              <div className="description">
-                <span>{item.name}</span>
-                <span>
-                  <del style={{ color: "red", marginRight: "8px" }}>
-                    ${item.InitialPrice}
-                  </del>
-                  <strong style={{ color: "green" }}>${item.FinalPrice}</strong>
-                </span>
-                <span>{item.Discount}% off</span>
-                <button className="add-to-cart" onClick={() => onAddItem(item)}>
+        {first_slice ? (
+          <ul>
+            {first_slice.map((item,index) => (
+              <li key={index}>
+                <Link style={{width:"100%"}} to={`/${id}/${item.name}`} >
+                {/* onMouseEnter={()=>handleMouseEnter(item.name)} onMouseLeave={handleMouseLeave}  */}
+                  <img className="initial_box_img" src={item.src} alt={item.name || "Image not available"} />
+                  <div className="description">
+                    <p>{item.name}</p>
+                     
+                     <p>
+                      <del style={{ color: "red", marginRight: "8px" }}>
+                        ${item.SubData[0].DataSize.InitialPrice}
+                      </del>
+                      <strong style={{ color: "green" }}>${item.SubData[0].DataSize.FinalPrice}</strong>
+                    </p>
+                    <p>{item.SubData[0].DataSize.Discount}% off</p>
+                  </div>
+                </Link>
+                <button className="add-to-cart"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onAddItem(item.SubData[0].DataSize)
+                  }
+                  }>
                   Add to Cart
                 </button>
-              </div>
-            </li>
-          ))}
-        </ul>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p style={{ color: "red", textAlign: "center" }}>
+            No products found for this category.
+          </p>
+        )}
       </div>
     </>
   );

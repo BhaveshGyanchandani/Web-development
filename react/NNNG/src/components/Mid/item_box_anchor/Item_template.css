@@ -11,13 +11,14 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content vertically */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 /* List styles */
 .initial_box ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -34,11 +35,13 @@
     border-radius: 8px;
     background-color: #fff;
     padding: 15px;
-    width: calc(20% - 20px); /* 20% width minus gap for responsiveness */
+    /* width:100%; Adjusted for responsiveness */
+    min-width: 300px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     box-sizing: border-box; /* Include padding and border in width calculation */
+    text-align: center;
 }
 
 .initial_box ul li:hover {
@@ -46,14 +49,19 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Rectangular Image styles */
-.initial_box ul li img {
-    height: 120px;
-    width: 100%; /* Full width of the li */
+/* Image styles */
+.initial_box_img {
+    height: 200px;
+    width: 100%;
     border-radius: 6px;
     background-color: #f0f0f0;
     margin-bottom: 15px;
     object-fit: cover; /* Ensure the image covers the space properly */
+}
+
+
+p{
+    margin: 0px;
 }
 
 /* Description container */
@@ -72,6 +80,7 @@
     font-size: 14px;
     font-weight: 500;
     display: block; /* Ensure each span is block-level element */
+    word-wrap: break-word; /* Prevent text overflow */
 }
 
 .description span:first-child {
@@ -82,6 +91,18 @@
 
 .description span:last-child {
     color: #d9534f; /* Red color for discount text */
+}
+
+/* Price styles */
+.description span del {
+    color: #c00; /* Red for strikethrough price */
+    font-size: 13px;
+}
+
+.description span strong {
+    color: #28a745; /* Green for final price */
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* Add to Cart button styles */
@@ -95,9 +116,10 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Full width of the li to fit inside the description area */
+    width: 100%; /* Full width to fit within the card */
+    text-align: center;
 }
 
 .add-to-cart:hover {
@@ -107,4 +129,23 @@
 
 .add-to-cart:active {
     background-color: #449d44; /* Slightly darker green on click */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15); /* Subtle shadow when clicked */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .initial_box ul li {
+        width: calc(45% - 20px); /* Two items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .initial_box ul li {
+        width: calc(100% - 20px); /* One item per row */
+    }
+
+    .add-to-cart {
+        font-size: 12px;
+        padding: 6px 10px; /* Smaller button for smaller screens */
+    }
 }

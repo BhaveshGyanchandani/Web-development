@@ -1,0 +1,60 @@
+.Footer {
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4; /* Light background color for contrast */
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.About {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Responsive layout */
+    justify-content: space-around;
+    gap: 20px; /* Space between columns */
+    color: #333; /* Text color */
+}
+
+.About ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    max-width: 200px; /* Limit width for better alignment */
+}
+
+.About-ul-span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+    display: inline-block; /* Align with spacing */
+}
+
+.About ul li {
+    margin: 5px 0;
+}
+
+.About-li-span {
+    font-size: 14px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.About-li-span:hover {
+    color: #007bff; /* Add hover effect with a nice blue shade */
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .About {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+    
+    .About ul {
+        max-width: 100%; /* Full width for small screens */
+        text-align: center; /* Center text for better readability */
+    }
+}

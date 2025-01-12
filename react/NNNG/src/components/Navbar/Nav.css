@@ -4,7 +4,7 @@ nav {
     top: 0; /* Ensure the nav sticks to the top */
     width: 100%; /* Full width */
     background-color: #fff; /* Optional: background color */
-    z-index: 100; /* Optional: ensure it's above other elements */
+    z-index: 5; /* Optional: ensure it's above other elements */
     display: flex;
     flex-direction: column; /* Stack items vertically */
   }

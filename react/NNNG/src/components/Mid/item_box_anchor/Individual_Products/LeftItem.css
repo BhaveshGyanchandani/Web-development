@@ -1,0 +1,64 @@
+.DK {
+    border: 1px solid black;
+    width: 95%;
+    height: 85px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    position: relative;
+    position: sticky;
+    top: 113px;
+    z-index: 3; /* Higher than .RI */
+}
+
+.DKUL {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9); /* White with opacity */
+    position: relative; /* Create stacking context */
+    
+}
+
+
+.DKLI {
+    width: auto;
+    /* Adjust to content */
+    height: auto;
+    display: flex;
+    
+    margin: 0px;
+}
+
+.DKIMG {
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* Slight rounding of image corners */
+    background-color: #f9f9f9;
+    /* Light background */
+    pointer-events: auto;
+    cursor:grab;
+    /* Indicate the image is clickable */
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    /* Smooth transitions */
+    z-index: 4;
+}
+
+.DKIMG:hover {
+    transform: scale(1.1);
+    /* Slight zoom effect on hover */
+    background-color: #ddd;
+    /* Highlight background */
+    cursor:grab;
+    z-index: 4;
+}

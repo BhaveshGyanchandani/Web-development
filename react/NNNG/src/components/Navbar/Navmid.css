@@ -1,58 +1,121 @@
+/* General layout for the nav-belt */
 .nav-belt {
-    display: flex;
-    flex-direction: row;
-    width: 62vw;
-    margin: auto 0px;
-    height: 41px;
-  
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Updated to make it more flexible on different screen sizes */
+  margin: 0 auto;
+  height: 45px;
+  padding: 5px;
+}
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  #searchlogo {
-    background-color: rgb(236, 186, 91);
-    width: 44px;
-    height: 40px;
-    margin-top: 1px;
-    border-radius: 0px 4px 4px 0px;
-  
-  }
-  
-  #searchlogo1 {
-    display: flex;
-    width: 26px;
-    height: 24px;
-    justify-content: center;
-    position: relative;
-    top: 0px;
-    right: 11px;
-  }
-  
-  #searchlogo:hover {
-    background-color: rgb(231, 163, 35);
-  }
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+/* Search button styling */
+#searchlogo {
+  background-color: rgb(236, 186, 91);
+  width: 44px;
+  height: 40px;
+  margin-top: 1px;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  padding: 0px;
+}
+
+#searchlogo1 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  right: 2px;
   
+}
+
+/* Hover effect on the search logo */
+#searchlogo:hover {
+  background-color: rgb(231, 163, 35);
+}
+
+/* Search input field */
 #search {
-    width: 1024px;
-    background-color: white;
-    margin-top: 1px;
-    height: 40px;
-    border: none;
-  }
-  
-  @media screen and (max-width: 1200px) {
-    #search {
-        width: 80%; /* or a percentage based on the available width */
-    }
+  width: 70%; /* Adjusted to ensure flexibility */
+  max-width: 1024px; /* Keeps a maximum width */
+  background-color: white;
+  margin-top: 1px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Add focus effect for better UX */
+#search:focus {
+  border-color: rgb(231, 163, 35);
+  outline: none;
+}
+
+/* Style for the search results dropdown */
+.search-results {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: absolute;
+  top: 33px; /* Ensures it shows below the search bar */
+  /* left: 0; */
+  width: 60%;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-results li {
+  padding: 10px 16px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.search-results li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .nav-belt {
+    width: 90%;
   }
 
-  @media screen and (max-width: 600px) {
-    #search {
-        width: 80%; /* or a percentage based on the available width */
-    }
+  #search {
+    width: 80%;
   }
-  
+}
+
+@media screen and (max-width: 600px) {
+  .nav-belt {
+    width: 95%;
+  }
+
+  #search {
+    width: 100%;
+  }
+
+  #searchlogo {
+    width: 40px; /* Smaller icon on smaller screens */
+    height: 38px;
+  }
+}

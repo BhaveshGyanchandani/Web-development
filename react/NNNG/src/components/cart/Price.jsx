@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import './Price.css';
-import { Cart_items } from '../../App';
+import { CartContext } from '../../ContextHooks';
 
 export function Price() {
-  const { Items } = useContext(Cart_items)
-
+  const { Items,setItems } = useContext(CartContext)
+  
   const totalPrice = Items.items.reduce(
     (acc, item) => acc + item.FinalPrice * item.quantity,
     0

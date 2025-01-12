@@ -1,0 +1,41 @@
+.DKinitial_box {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 20px auto;
+    padding: 0px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-inline-start: 0%;
+    /* position: sticky;
+    top: 0; /* Ensure the top offset is correctly aligned 
+    z-index: 5; Ensure its above siblings when sticky */
+
+}
+
+.DKbelow_box {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+    /* padding: 20px; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center;
+    box-sizing: border-box;
+    padding-inline-start: 0%;
+    gap: 25px;
+}
+
+.DKinitial_box .DKbelow_box {
+    gap: 20px; /* Adjust the gap between items within DKbelow_box */
+}

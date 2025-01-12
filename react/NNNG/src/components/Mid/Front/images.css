@@ -1,0 +1,70 @@
+.bgimagebg {
+    width: 100%;
+    /* Full viewport width */
+    height: auto;
+    /* Maintain height relative to viewport */
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    background-size: cover;
+    /* Ensure the image covers the container */
+    background-position: center;
+    /* Center the image */
+    margin: 0 auto;
+    /* Ensure no extra margin from other elements */
+    padding: 0;
+    /* Remove any default padding */
+}
+
+.images-container {
+    position: relative;
+}
+
+.contentlogo {
+    width: 100%;
+    /* Stretch image to full width */
+    height: auto;
+    /* Maintain aspect ratio */
+    z-index: 1;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.image-gallery {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bgimagebg.active {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+    /* Full scale for active image */
+    top: 0px;
+}
+
+.bgimagebg.inactive {
+    opacity: 0;
+    z-index: 0;
+    transform: scale(0.95);
+    /* Slightly smaller for inactive images */
+}
+
+
+@media(max-width: 500px) {
+    .button_logo button {
+        padding: 4px 7px;
+    }
+
+
+}

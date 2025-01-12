@@ -1,12 +1,22 @@
+
 import React, { useState, useEffect, useRef } from "react";
 import { Button } from "./Button";
 import { Li } from "./Li";
+import { SearchResults } from "./SearchResults"; // Import SearchResults component
 import './Navmid.css'
+import { Product } from "../Datasets/Products/Final_Test_Product";
 
 export function Navmid() {
   const [menu, setMenu] = useState("Menu");
   const [isOpen, setIsOpen] = useState(false);
+  const [Input, setInput] = useState("");
+  const [Search, setSearch] = useState([]);
   const dropdownRef = useRef(null);
+
+  const result = Product.flatMap((item) =>
+    item.Data.map((content) => content.name)
+  );
+
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -30,6 +40,34 @@ export function Navmid() {
     };
   }, []);
 
+  const fetchData = (value) => {
+    const Data = result.filter((item) =>
+      item.toLowerCase().includes(value.toLowerCase())
+    );
+    setSearch(Data);
+    
+  };
+
+  const handleChange = (value) => {
+    setInput(value);
+    fetchData(value);
+  };
+
+  //  const fetchData = (value) => {
+  // fetch('../Datasets/Products/Test_Product.json')
+  //   .then(response => response.json())
+  //   .then((json) => {
+  //     const filteredResults = json.filter((user) => {
+  //       const ProductName = user.Data.flatMap((Product) => Product.name);
+  //       // console.log(ProductName);
+
+
+  //       return ProductName.includes(value)
+  //     });
+  //     console.log(filteredResults)
+  //   })
+  //}
+
   return (
     <div className="nav-belt">
       <div className="dropdown" ref={dropdownRef}>
@@ -37,7 +75,14 @@ export function Navmid() {
         <Li isopen={isOpen} handlemenu={handleMenu} />
       </div>
 
-      <input id="search" type="search" placeholder="Search Amazon" />
+      <input
+        style={{ color: "black" }}
+        id="search"
+        type="search"
+        placeholder="Search Amazon"
+        value={Input}
+        onChange={(e) => handleChange(e.target.value)}
+      />
 
       <button id="searchlogo">
         <svg
@@ -45,8 +90,8 @@ export function Navmid() {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
-          width="24"
-          height="24"
+          // width="24"
+          // height="24"
           viewBox="0 0 50 50"
         >
           <path
@@ -54,6 +99,9 @@ export function Navmid() {
           ></path>
         </svg>
       </button>
+
+      {/* Display the search results */}
+      {Input && <SearchResults results={Search} />}
     </div>
   );
 }
