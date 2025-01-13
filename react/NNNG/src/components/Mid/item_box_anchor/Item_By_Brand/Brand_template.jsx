@@ -54,12 +54,12 @@ export function Brand_template() {
               <li key={index} className="product-item">
                 <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
                 <strong className="product-title">{item.product}</strong>
-                <Link to={`/Home/${Brands}/${item.product}`} ><strong className="product-title SeeMore" >See More &gt; </strong></Link>
+                <Link to={`/E-commerce-website/Home/${Brands}/${item.product}`} ><strong className="product-title SeeMore" >See More &gt; </strong></Link>
                 </div>
                 <ul className="product-grid">
                   {item.Data.map((content, contentIndex) => (
                     <li key={contentIndex} className="product-card">
-                      <Link to={`/${item.product}/${content.name}`} className="product-link">
+                      <Link to={`/E-commerce-website/${item.product}/${content.name}`} className="product-link">
                         <img
                           src={content.src}
                           alt={content.name}

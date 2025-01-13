@@ -63,13 +63,13 @@ import { Footer } from './components/Footer/Footer.jsx';
 import { See_More_of_Brand_Item } from './components/Mid/item_box_anchor/Item_By_Brand/See_More_of_Brand.jsx';
 
 const router = createBrowserRouter([
-  { path: '/', element: <Home /> },
-  { path: '/:id', element: <Item_template /> },
-  { path: '/:id/:aboutId', element: <Individual_Item_template /> },
-  { path: '/cart', element: <Cart /> },
-  { path: '/Home/:Brands', element: <Brand_template /> },
-  { path: '/test', element: <Footer /> },
-  {path:'/Home/:Brands/:SeeMore' ,element:<See_More_of_Brand_Item />}
+  { path: '/E-commerce-website/', element: <Home /> },
+  { path: '/E-commerce-website/:id', element: <Item_template /> },
+  { path: '/E-commerce-website/:id/:aboutId', element: <Individual_Item_template /> },
+  { path: '/E-commerce-website/cart', element: <Cart /> },
+  { path: '/E-commerce-website/Home/:Brands', element: <Brand_template /> },
+  { path: '/E-commerce-website/test', element: <Footer /> },
+  {path:'/E-commerce-website/Home/:Brands/:SeeMore' ,element:<See_More_of_Brand_Item />}
 ]);
 
 function App() {

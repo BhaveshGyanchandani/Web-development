@@ -20,7 +20,7 @@ export function All() {
     return (
       <div className="HoveredList">
         {item.Data.map((content, id) => (
-          <Link key={id} to={`/${content}`} className="HoveredSpanLink">
+          <Link key={id} to={`/E-commerce-website/${content}`} className="HoveredSpanLink">
             <span className="HoveredSpan">{content}</span>
           </Link>
         ))}

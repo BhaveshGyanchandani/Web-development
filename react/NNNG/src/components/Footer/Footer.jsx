@@ -18,7 +18,7 @@ export function Footer() {
                                     items.Data.map((data, index) => {
 
                                         return (
-                                            <Link key={index} to={`/Home/${data}`} >
+                                            <Link key={index} to={`/E-commerce-website/Home/${data}`} >
                                                 <li >
                                                     <span className='About-li-span'> {data} </span>
                                                 </li>

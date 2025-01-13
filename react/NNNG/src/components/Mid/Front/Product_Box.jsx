@@ -35,7 +35,7 @@ export function Product_Box() {
         <div className="Item_container">
             <ul>
                 {Items.map((item) => (
-                    <Link key={item.id}  to={`/${item.category}`}>
+                    <Link key={item.id}  to={`/E-commerce-website/${item.category}`}>
                         <li
                             className="item"
                             onMouseEnter={() => handleMouseEnter(item.id)}

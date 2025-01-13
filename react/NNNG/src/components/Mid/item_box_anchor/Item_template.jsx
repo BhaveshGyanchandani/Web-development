@@ -68,6 +68,8 @@ export function Item_template() {
   }
 
   const first_slice = Product.find((item) => item.product === id).Data
+  console.log(first_slice)
+  // console.log(Product)
   
   // const second_slice = Product.find((item) => item.product === id).Data[0].SubData[0].DataSize
   
@@ -79,7 +81,7 @@ export function Item_template() {
           <ul>
             {first_slice.map((item,index) => (
               <li key={index}>
-                <Link style={{width:"100%"}} to={`/${id}/${item.name}`} >
+                <Link style={{width:"100%"}} to={`/E-commerce-website/${id}/${item.name}`} >
                 {/* onMouseEnter={()=>handleMouseEnter(item.name)} onMouseLeave={handleMouseLeave}  */}
                   <img className="initial_box_img" src={item.src} alt={item.name || "Image not available"} />
                   <div className="description">

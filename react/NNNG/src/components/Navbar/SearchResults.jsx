@@ -16,7 +16,7 @@ export function SearchResults({ results }) {
                     const productCategory = SelectedProduct ? SelectedProduct.product : "Unknown";
 
                     return (
-                        <Link key={index} to={`/${productCategory}/${searchItem}`}>
+                        <Link key={index} to={`/E-commerce-website/${productCategory}/${searchItem}`}>
                             <li >
                                 {searchItem}
                             </li>

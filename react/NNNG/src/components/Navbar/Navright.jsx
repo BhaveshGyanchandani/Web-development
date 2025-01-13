@@ -12,7 +12,7 @@ export default function Navright() {
         <div className="signIN">
           <span id="Hello">Sign in</span><br />
         </div>
-        <Link style={{width:"44px"}} to="/cart">
+        <Link style={{width:"44px"}} to="/E-commerce-website/cart">
         <div id="cart">
           <svg id="carticon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
             width="24" height="24" color="#fefefe" fill="none">
