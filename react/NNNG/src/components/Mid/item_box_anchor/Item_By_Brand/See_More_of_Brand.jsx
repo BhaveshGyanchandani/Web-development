@@ -45,7 +45,7 @@ export function See_More_of_Brand_Item() {
             <div className="see-more-container">
                 <ul className="product-list">
                     {ProductSlice.map((item, index) => (
-                        <Link  key={index} to={`/E-commerce-website/Home/${SeeMore}/${item.name}`}>
+                        <Link  key={index} to={`/E-commerce-website/${SeeMore}/${item.name}`}>
                             <li className="product-card">
                                 <img src={item.src} alt="Not available" className="product-image" />
                                 <p className="product-name">{item.name}</p>
