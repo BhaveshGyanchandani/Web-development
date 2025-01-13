@@ -35,7 +35,8 @@ export function Cart_list() {
     }
 
     return (
-        <div className="Items">
+        <>
+            <div className="Items">
             {Items.items.length === 0 ? (
                 <p style={{ color: "black" }}>Your cart is empty.</p>
             ) : (
@@ -59,6 +60,8 @@ export function Cart_list() {
                     </li>
                 ))
             )}
+        
         </div>
+        </>
     );
 }

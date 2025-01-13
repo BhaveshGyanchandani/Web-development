@@ -6,8 +6,6 @@ import { useEffect, useRef } from 'react';
 export function Sidebar({ state, setState }) {
     const sidebarRef = useRef(null);
 
-
-
     function handleSidebarClose() {
         setState(false);
     }
@@ -29,23 +27,19 @@ export function Sidebar({ state, setState }) {
     return (
         <>
             {state && (
-                <div
-                    className="overlay"
-                    onClick={handleSidebarClose} // Clicking on the overlay will close the sidebar
-                ></div>
+                <div className="overlay" onClick={handleSidebarClose}></div>
             )}
 
             <div
-                className="sidebar"
+                className={`sidebar ${state ? 'sidebar-show' : ''}`}
                 ref={sidebarRef}
-                style={{ display: state ? 'block' : 'none' }}
             >
                 <button className="close" onClick={handleSidebarClose}>
-                    <span style={{ fontSize: '30px', fontWeight: 'bolder' }}>X</span>
+                    <span>X</span>
                 </button>
                 <div className="Hello">
                     <div className="Hello_sign">
-                        <img src={user_icon} alt="not available" />
+                        <img src={user_icon} alt="User" />
                         <span>Hello there</span>
                     </div>
                 </div>
@@ -54,12 +48,10 @@ export function Sidebar({ state, setState }) {
                     {DUMMY_PRODUCTS.map((item) => (
                         <div key={item.id}>
                             <ul className="sidebar_ul">
-                                
                                 <span className="sidebar-name">{item.title}</span>
                                 {item.category === 'brand' ? (
                                     By_brand.map((brandItem) => (
                                         <a key={brandItem.id}>
-                                            
                                             <li className="Sidebar_item">
                                                 <span>{brandItem.title}</span>
                                             </li>
@@ -68,7 +60,6 @@ export function Sidebar({ state, setState }) {
                                 ) : (
                                     By_dept.map((deptItem) => (
                                         <a key={deptItem.id}>
-                                            
                                             <li className="Sidebar_item">
                                                 <span>{deptItem.title}</span>
                                             </li>

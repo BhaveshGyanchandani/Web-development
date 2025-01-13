@@ -1,107 +1,121 @@
+/* Sidebar Styles */
 .sidebar {
-    position: fixed; /* Keeps the sidebar fixed on the viewport */
-    top: 0px; /* Aligns it to the top of the viewport */
-    left: 0px; /* Ensures it starts from the left */
-    width: 350px; /* Defines the width of the sidebar */
-    height: 100vh; /* Makes the sidebar span the entire height of the viewport */
-    border: 1px solid black; /* Adds a black border */
-    background-color: white; /* Sets the background color to white */
-    overflow-y: auto; /* Enables vertical scrolling */
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-    z-index: 1000; /* Ensures the sidebar appears above other content */
-  }
-  
-  
-  .Hello{
-    color : black;
-    border: 1px solid black;
-    height: 50px;
-    text-align: center;
-    
-    background-color: #007185;
-    
-  }
-  
-  .Hello span {
-    font-size: 20px;
-    font-weight: 900;
-    padding: 9px 20px;
-    
-  }
-  
-  
-  .Hello_sign{
-    display: flex;
-    justify-content: center;
-  }
+  position: fixed;
+  top: 0;
+  left: -350px; /* Start hidden off-screen */
+  width: 350px;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  z-index: 1001;
+  transition: all 0.3s ease-in-out; /* Smooth slide-in animation */
+}
 
+.sidebar-show {
+  left: 0; /* Slide in */
+}
 
-  .Hello img{
-    width: 50px;
-    height: 43px;
-  }
+.sidebar .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
 
-  .sidebar div ul{
-    color : black;
-  }
-
-  .close {
-    position: fixed;
-    top: 0px;
-    height: 50px;
-    width: 50px;
-    right: 0px;
-    left: 349px;
-    padding: 0px 0px;
-  }
-
-
+.sidebar .close:hover {
+  transform: rotate(90deg); /* Rotate animation on hover */
+}
 
 /* Overlay Styles */
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-    z-index: 1000; /* Below the sidebar */
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 1000; /* Below the sidebar */
+  animation: fadeIn 0.3s ease-in-out; /* Fade-in effect */
+}
 
-ul{
+/* Header Section */
+.Hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007185;
+  color: white;
+  height: 70px;
+  border-bottom: 2px solid #005f70;
+}
+
+.Hello img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.Hello span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Sidebar List Styles */
+.sidebar_ul {
   list-style: none;
+  padding: 20px;
+  margin: 0;
 }
 
-  .sidebar-name{
-    font-size: 23px;
-    font-weight: bold;
-    
-  }
-
-
-  .sidebar_ul{
-  margin: 50px 0px;
-  }
-  
-.Sidebar_item{
-    font-size: 15px;
-    height: 40px;
-    margin: 3px 0px;
-    display: flex;
-    align-items: center;
+.sidebar-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
 }
 
-  .Sidebar_item:hover{
-    background-color: black;
-    color: wheat;
-    cursor: pointer;
-  }
+.Sidebar_item {
+  font-size: 15px;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
 
+.Sidebar_item:hover {
+  background-color: #333;
+  color: white;
+  transform: translateX(10px); /* Smooth slide effect on hover */
+  cursor: pointer;
+}
 
-  .sidebar_ul a {
-    color: black;
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
   }
+  to {
+      opacity: 1;
+  }
+}
 
-  br{
-    color: black;
+.sidebar-show {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+      left: -350px;
   }
+  to {
+      left: 0;
+  }
+}

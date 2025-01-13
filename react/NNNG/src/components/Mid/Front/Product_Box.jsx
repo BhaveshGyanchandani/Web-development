@@ -44,10 +44,10 @@ export function Product_Box() {
                             <img src={item.src} alt={item.category} />
                             <span>
                                 {item.category}{' '}
-                                {item.arrow && <ArrowIcon isHovered={hoveredItemId === item.id} />}
+                                {/* {item.arrow && <ArrowIcon isHovered={hoveredItemId === item.id} />} */}
                             </span>
                         </li>
-                        {/* {hoveredItemId === item.id && <Content_on_hover />} */}
+                        
                     </Link>
                 ))}
             </ul>

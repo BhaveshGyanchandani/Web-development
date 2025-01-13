@@ -3,8 +3,8 @@ import './Price.css';
 import { CartContext } from '../../ContextHooks';
 
 export function Price() {
-  const { Items,setItems } = useContext(CartContext)
-  
+  const { Items, setItems } = useContext(CartContext)
+
   const totalPrice = Items.items.reduce(
     (acc, item) => acc + item.FinalPrice * item.quantity,
     0
@@ -23,40 +23,43 @@ export function Price() {
   const MoneySaved = (formattedInitialPrice - formattedTotalPrice).toFixed(2); // amount of money saved
 
   return (
-    <li className="price">
-      <span className="price-row">
-        <strong>Initial Price ({Items.items.length} items)</strong>
-        <span>${formattedInitialPrice}</span>
-      </span>
-      <span className="price-row">
-        <strong>Discount</strong>
-        <span>${Discount === 'NaN' ? 0 : Discount}</span>
-      </span>
-      <span className="price-row">
-        <strong>Final Price</strong>
-        <span>${formattedfinalPrice}</span>
-      </span>
-      <span className="price-row">
-        <strong>Delivery Fees</strong>
-        <span>${Items.items.length === 0 ? 0 : DeliveryFees}</span>
-      </span>
-      <span className="price-row">
-        <strong>Total Amount to Pay</strong>
-        <span>${Items.items.length === 0 ? 0 : formattedTotalPrice}</span>
-      </span>
-      {MoneySaved > 0 && (
-        <>
-          <span className="price-row">
-            <strong>Money Saved after Delivery Fees</strong>
-            <span>
-              ${Items.items.length === 0 ? 0 : MoneySaved}
+    <div className='container'>
+      <li className="price">
+        <span className="price-row">
+          <strong>Initial Price ({Items.items.length} items)</strong>
+          <span>${formattedInitialPrice}</span>
+        </span>
+        <span className="price-row">
+          <strong>Discount</strong>
+          <span>${Discount === 'NaN' ? 0 : Discount}</span>
+        </span>
+        <span className="price-row">
+          <strong>Final Price</strong>
+          <span>${formattedfinalPrice}</span>
+        </span>
+        <span className="price-row">
+          <strong>Delivery Fees</strong>
+          <span>${Items.items.length === 0 ? 0 : DeliveryFees}</span>
+        </span>
+        <span className="price-row">
+          <strong>Total Amount to Pay</strong>
+          <span>${Items.items.length === 0 ? 0 : formattedTotalPrice}</span>
+        </span>
+        {MoneySaved > 0 && (
+          <>
+            <span className="price-row">
+              <strong>Money Saved after Delivery Fees</strong>
+              <span>
+                ${Items.items.length === 0 ? 0 : MoneySaved}
+              </span>
             </span>
-          </span>
+          </>
+        )}
 
-
-        </>
-      )}
-
-    </li>
+      </li>
+      <div className="checkout">
+          <button>Checkout</button>
+      </div>
+    </div>
   );
 }

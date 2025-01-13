@@ -10,12 +10,13 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     justify-content: space-around;
 }
+
 /* All button */
 #alltray {
   display: flex;
   align-items: center;
   cursor: pointer;
-  margin: auto 0;
+  margin: auto 0px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: none;
 }
@@ -50,7 +51,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   transition: transform 0.3s ease, color 0.3s ease;
-  border-radius: 8px;
 }
 
 .today:hover {
@@ -72,37 +72,34 @@
 
 /* Hovered list */
 .HoveredList {
-  display: flex;
   flex-direction: column;
-  border: 1px solid #bdc3c7;
+  border: 1px solid black;
   width: 100%;
-  background-color: #ffffff;
+  background-color: white;
+  text-decoration: none;
+  gap: 3px;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  margin-top: 5px;
-  padding: 5px;
-  transform: translateY(10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.HoveredSpanLink {
-  text-decoration: none;
-}
-
 .HoveredSpan {
-  color: #2c3e50;
-  font-size: 14px;
-  padding: 10px 5px;
-  display: block;
-  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  color: black;
+  font-size: 13px;
+  padding: 10px;
+  /* width: 150px; */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .HoveredSpan:hover {
-  transform: translateX(10px);
+  transform: scale(1.2) translateX(10px);
   background-color: #ecf0f1;
-  color: #e74c3c;
-  border-radius: 5px;
+  border-radius: 4px;
+}
+
+.LinkUi{
+  padding-inline-start: 0px;
 }
 
 /* Keyframe animations */
@@ -135,27 +132,23 @@
   }
 }
 
-/* Responsive Design */
-@media (max-width: 850px) {
-  .today {
-    padding: 5px;
-  }
-
-  #all {
-    gap: 10px;
+@media (max-width:780px) {
+  .today{
+    padding: 0px 12px ;
   }
 }
 
-@media (max-width: 752px) {
-  #alltray {
+@media (max-width:752px) {
+  #alltray{
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: auto 0;
+    margin: auto 0px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .HoverItem {
+  .HoverItem{
     display: none;
+    
   }
 }

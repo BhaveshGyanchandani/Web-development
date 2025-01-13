@@ -70,10 +70,10 @@ export function Navmid() {
 
   return (
     <div className="nav-belt">
-      <div className="dropdown" ref={dropdownRef}>
+      {/* <div className="dropdown" ref={dropdownRef}>
         <Button menu={menu} toggleDropdown={toggleDropdown} />
         <Li isopen={isOpen} handlemenu={handleMenu} />
-      </div>
+      </div> */}
 
       <input
         style={{ color: "black" }}
