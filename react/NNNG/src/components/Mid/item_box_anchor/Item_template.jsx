@@ -68,7 +68,7 @@ export function Item_template() {
   }
 
   const first_slice = Product.find((item) => item.product === id).Data
-  console.log(first_slice)
+  // console.log(first_slice)
   // console.log(Product)
   
   // const second_slice = Product.find((item) => item.product === id).Data[0].SubData[0].DataSize

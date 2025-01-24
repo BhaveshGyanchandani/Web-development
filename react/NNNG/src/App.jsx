@@ -61,6 +61,7 @@ import { Individual_Item_template } from './components/Mid/item_box_anchor/Indiv
 import { CartProvider } from './ContextHooks.jsx';
 import { Footer } from './components/Footer/Footer.jsx';
 import { See_More_of_Brand_Item } from './components/Mid/item_box_anchor/Item_By_Brand/See_More_of_Brand.jsx';
+import { Checkout } from './components/cart/Checkout.jsx';
 
 const router = createBrowserRouter([
   { path: '/E-commerce-website/', element: <Home /> },
@@ -69,6 +70,7 @@ const router = createBrowserRouter([
   { path: '/E-commerce-website/cart', element: <Cart /> },
   { path: '/E-commerce-website/Home/:Brands', element: <Brand_template /> },
   { path: '/E-commerce-website/test', element: <Footer /> },
+  { path: '/E-commerce-website/Checkout', element: <Checkout /> },
   {path:'/E-commerce-website/Home/:Brands/:SeeMore' ,element:<See_More_of_Brand_Item />}
 ]);
 
@@ -82,3 +84,4 @@ function App() {
 
 export default App;
 
+// use "npm run build "and "npm run deploy" every time i change something in file

@@ -1,0 +1,95 @@
+/* General checkout page styles */
+.checkout-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .checkout-container {
+    flex: 0 0 60%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  .checkout-form-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form section {
+    margin-bottom: 30px;
+  }
+  
+  .checkout-form h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #4CAF50;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-btn:active {
+    background-color: #388e3c;
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .checkout-container,
+    .price-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

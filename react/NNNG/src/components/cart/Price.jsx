@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './Price.css';
 import { CartContext } from '../../ContextHooks';
-
+import { Link } from 'react-router-dom';
 export function Price() {
   const { Items, setItems } = useContext(CartContext)
 
@@ -58,7 +58,9 @@ export function Price() {
 
       </li>
       <div className="checkout">
+        <Link to={'/E-commerce-website/Checkout'} >
           <button>Checkout</button>
+        </Link>
       </div>
     </div>
   );

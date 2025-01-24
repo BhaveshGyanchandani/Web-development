@@ -1,12 +1,12 @@
 import Nav from '../../../Navbar/Nav';
 import './See_More.css'
-import { BrandWise_Product } from '../../../Datasets/Products/Final_BrandWise_Product_Data';
+import { Product } from '../../../Datasets/Products/Final_Test_Product';
 import { useParams,Link } from 'react-router-dom';
 
 
 export function See_More_of_Brand_Item() {
     const { SeeMore, Brands } = useParams();
-    const ProductSlice = BrandWise_Product.find((item) => item.Brand === Brands).BrandData.find((item) => item.product === SeeMore).Data;
+    const ProductSlice = Product.find((item) => item.Brand === Brands).BrandData.find((item) => item.product === SeeMore).Data;
 
     function onAddItem(item) {
         setItems((prevShoppingCart) => {

@@ -3,10 +3,11 @@
         "product": "Dinner set",
         "Data": [
             {
+                "Brand": "Milton",
                 "name": "32pcs Dinner Set",
-                "src":"https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151",
-                "HoveredState":false,
-                "HoveredSrc":"https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151",
+                "src": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151",
+                "HoveredState": false,
+                "HoveredSrc": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151",
                 "SubData": [
                     {
                         "size": 300,
@@ -15,9 +16,15 @@
                             "InitialPrice": 20,
                             "Discount": 50,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     },
@@ -28,8 +35,9 @@
                             "InitialPrice": 40,
                             "Discount": 40,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
-                                
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     },
@@ -40,15 +48,19 @@
                             "InitialPrice": 60,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
-                                
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Dinner Plate Set (6pcs)",
                 "SubData": [
                     {
@@ -58,15 +70,22 @@
                             "InitialPrice": 25,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Cooking Pot Set (3pcs)",
                 "SubData": [
                     {
@@ -76,15 +95,22 @@
                             "InitialPrice": 30,
                             "Discount": 40,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Non-Stick Pan Set (2pcs)",
                 "SubData": [
                     {
@@ -94,39 +120,52 @@
                             "InitialPrice": 24,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Serving Tray Set (3pcs)",
                 "SubData": [
                     {
                         "size": 300,
                         "DataSize": {
-                            "id":"D5",
+                            "id": "D5",
                             "InitialPrice": 15,
                             "Discount": 40,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             }
         ]
-    }
-    ,
+    },
     {
         "product": "Office Lunch Box",
         "Data": [
             {
+                "Brand": "Rishabh",
                 "name": "Office Lunch Box (1pc)",
                 "SubData": [
                     {
@@ -136,15 +175,22 @@
                             "InitialPrice": 15,
                             "Discount": 20,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Rishabh",
                 "name": "Insulated Office Lunch Box",
                 "SubData": [
                     {
@@ -154,15 +200,22 @@
                             "InitialPrice": 25,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Rishabh",
                 "name": "Thermal Steel Office Lunch Box",
                 "SubData": [
                     {
@@ -172,15 +225,22 @@
                             "InitialPrice": 35,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Rishabh",
                 "name": "Leakproof Office Lunch Box",
                 "SubData": [
                     {
@@ -190,15 +250,22 @@
                             "InitialPrice": 20,
                             "Discount": 15,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Rishabh",
                 "name": "Bento Office Lunch Box",
                 "SubData": [
                     {
@@ -208,9 +275,15 @@
                             "InitialPrice": 22,
                             "Discount": 20,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
@@ -218,11 +291,11 @@
             }
         ]
     },
-
     {
-        "product": "Kids Lunch Box",
+        "product": "Office Lunch Box",
         "Data": [
             {
+                "Brand": "Nayasa",
                 "name": "Kids' Lunch Box Set (3pcs)",
                 "SubData": [
                     {
@@ -232,15 +305,22 @@
                             "InitialPrice": 18,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Insulated Lunch Box (1pc)",
                 "SubData": [
                     {
@@ -250,15 +330,22 @@
                             "InitialPrice": 25,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Thermal Steel Lunch Box (1pc)",
                 "SubData": [
                     {
@@ -268,15 +355,22 @@
                             "InitialPrice": 35,
                             "Discount": 35,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Leakproof Lunch Box (1pc)",
                 "SubData": [
                     {
@@ -286,15 +380,22 @@
                             "InitialPrice": 20,
                             "Discount": 20,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Bento Lunch Box (2pcs)",
                 "SubData": [
                     {
@@ -304,9 +405,15 @@
                             "InitialPrice": 22,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
@@ -314,11 +421,11 @@
             }
         ]
     },
-
     {
         "product": "Thermosteel Bottles",
         "Data": [
             {
+                "Brand": "Nayasa",
                 "name": "1L Thermosteel Bottle",
                 "SubData": [
                     {
@@ -328,15 +435,22 @@
                             "InitialPrice": 30,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "750ml Thermosteel Bottle",
                 "SubData": [
                     {
@@ -346,15 +460,22 @@
                             "InitialPrice": 25,
                             "Discount": 20,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "300ml Thermosteel Bottle",
                 "SubData": [
                     {
@@ -364,15 +485,22 @@
                             "InitialPrice": 20,
                             "Discount": 15,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "1.5L Thermosteel Bottle",
                 "SubData": [
                     {
@@ -382,15 +510,22 @@
                             "InitialPrice": 35,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Leakproof Thermosteel Bottle",
                 "SubData": [
                     {
@@ -400,9 +535,15 @@
                             "InitialPrice": 28,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120" },
-                                { "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151" },
-                                { "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151" }
+                                {
+                                    "red": "https://www.milton.in/cdn/shop/files/Zenith_Turquoise_1_L_Green_3.jpg?v=1701068151&width=120"
+                                },
+                                {
+                                    "blue": "https://www.milton.in/cdn/shop/files/Zenith_2.5_L_Pink_3_1800x1800.jpg?v=1701068151"
+                                },
+                                {
+                                    "green": "https://www.milton.in/cdn/shop/files/Zenith_1.5_L_Peach_3_1800x1800.jpg?v=1701068151"
+                                }
                             ]
                         }
                     }
@@ -414,6 +555,7 @@
         "product": "Bottles",
         "Data": [
             {
+                "Brand": "Milton",
                 "name": "Glass Bottle Set (6pcs)",
                 "SubData": [
                     {
@@ -423,15 +565,22 @@
                             "InitialPrice": 25,
                             "Discount": 30,
                             "images": [
-                                { "red": "https://www.example.com/glass_bottle_red.jpg" },
-                                { "blue": "https://www.example.com/glass_bottle_blue.jpg" },
-                                { "green": "https://www.example.com/glass_bottle_green.jpg" }
+                                {
+                                    "red": "https://www.example.com/glass_bottle_red.jpg"
+                                },
+                                {
+                                    "blue": "https://www.example.com/glass_bottle_blue.jpg"
+                                },
+                                {
+                                    "green": "https://www.example.com/glass_bottle_green.jpg"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Plastic Water Bottle (1pc)",
                 "SubData": [
                     {
@@ -441,15 +590,22 @@
                             "InitialPrice": 10,
                             "Discount": 10,
                             "images": [
-                                { "red": "https://www.example.com/plastic_bottle_red.jpg" },
-                                { "blue": "https://www.example.com/plastic_bottle_blue.jpg" },
-                                { "green": "https://www.example.com/plastic_bottle_green.jpg" }
+                                {
+                                    "red": "https://www.example.com/plastic_bottle_red.jpg"
+                                },
+                                {
+                                    "blue": "https://www.example.com/plastic_bottle_blue.jpg"
+                                },
+                                {
+                                    "green": "https://www.example.com/plastic_bottle_green.jpg"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Nayasa",
                 "name": "Stainless Steel Water Bottle (1pc)",
                 "SubData": [
                     {
@@ -459,15 +615,22 @@
                             "InitialPrice": 20,
                             "Discount": 15,
                             "images": [
-                                { "red": "https://www.example.com/steel_bottle_red.jpg" },
-                                { "blue": "https://www.example.com/steel_bottle_blue.jpg" },
-                                { "green": "https://www.example.com/steel_bottle_green.jpg" }
+                                {
+                                    "red": "https://www.example.com/steel_bottle_red.jpg"
+                                },
+                                {
+                                    "blue": "https://www.example.com/steel_bottle_blue.jpg"
+                                },
+                                {
+                                    "green": "https://www.example.com/steel_bottle_green.jpg"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Thermal Flask (1pc)",
                 "SubData": [
                     {
@@ -477,15 +640,22 @@
                             "InitialPrice": 35,
                             "Discount": 20,
                             "images": [
-                                { "red": "https://www.example.com/thermal_flask_red.jpg" },
-                                { "blue": "https://www.example.com/thermal_flask_blue.jpg" },
-                                { "green": "https://www.example.com/thermal_flask_green.jpg" }
+                                {
+                                    "red": "https://www.example.com/thermal_flask_red.jpg"
+                                },
+                                {
+                                    "blue": "https://www.example.com/thermal_flask_blue.jpg"
+                                },
+                                {
+                                    "green": "https://www.example.com/thermal_flask_green.jpg"
+                                }
                             ]
                         }
                     }
                 ]
             },
             {
+                "Brand": "Milton",
                 "name": "Reusable Glass Bottles (4pcs)",
                 "SubData": [
                     {
@@ -495,9 +665,15 @@
                             "InitialPrice": 30,
                             "Discount": 25,
                             "images": [
-                                { "red": "https://www.example.com/reusable_glass_red.jpg" },
-                                { "blue": "https://www.example.com/reusable_glass_blue.jpg" },
-                                { "green": "https://www.example.com/reusable_glass_green.jpg" }
+                                {
+                                    "red": "https://www.example.com/reusable_glass_red.jpg"
+                                },
+                                {
+                                    "blue": "https://www.example.com/reusable_glass_blue.jpg"
+                                },
+                                {
+                                    "green": "https://www.example.com/reusable_glass_green.jpg"
+                                }
                             ]
                         }
                     }
@@ -505,8 +681,4 @@
             }
         ]
     }
-    
-    
-    
-    
 ]

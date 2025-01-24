@@ -1,14 +1,15 @@
-import { useContext,useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { CartContext } from "../../../../ContextHooks.jsx";
 import Nav from "../../../Navbar/Nav.jsx";
-import { BrandWise_Product } from "../../../Datasets/Products/Final_BrandWise_Product_Data.js";
+import { Product } from "../../../Datasets/Products/Final_Test_Product.js";
 import './Brand_template.css';
 import { Footer } from "../../../Footer/Footer.jsx";
-
+import { useNavigate } from "react-router-dom";
 export function Brand_template() {
   const { Brands } = useParams();
-  const { Items, setItems } = useContext(CartContext);
+  const {setItems } = useContext(CartContext);
+  const navigate = useNavigate();
 
   function onAddItem(item) {
     setItems((prevShoppingCart) => {
@@ -40,21 +41,31 @@ export function Brand_template() {
       };
     });
   }
+  
+  const first_slice = Product.map((item) => ({
+    ...item,
+    Data: item.Data.filter((content) => content.Brand === Brands), // Filter the Data array
+  })).filter((item) => item.Data.length > 0); // Remove items where Data is empty
+  
 
-  const first_slice = BrandWise_Product.find((item) => item.Brand === Brands).BrandData;
+  useEffect(() => {
+    if (Brands) {
+      navigate(`/E-commerce-website/Home/${Brands}`); // Redirect to the desired route
+    }
+  }, [Brands, navigate]);
 
   return (
     <>
       <Nav />
       <div className="brand-template-box">
         <h1 className="brand-title">{Brands}</h1>
-        {first_slice ? (
+        {first_slice.length>0 ? (
           <ul className="brand-list">
             {first_slice.map((item, index) => (
               <li key={index} className="product-item">
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
-                <strong className="product-title">{item.product}</strong>
-                <Link to={`/E-commerce-website/Home/${Brands}/${item.product}`} ><strong className="product-title SeeMore" >See More &gt; </strong></Link>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+                  <strong className="product-title">{item.product}</strong>
+                  <Link to={`/E-commerce-website/Home/${Brands}/${item.product}`} ><strong className="product-title SeeMore" >See More &gt; </strong></Link>
                 </div>
                 <ul className="product-grid">
                   {item.Data.map((content, contentIndex) => (
