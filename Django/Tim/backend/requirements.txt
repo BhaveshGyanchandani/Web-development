@@ -1,0 +1,13 @@
+asgiref
+Django
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+PyJWT
+pytz
+sqlparse
+psycopg2-binary
+python-dotenv
+
+# we use python -m venv env to create a env folder , django-admin startproject backend ,  python manage.py startapp api (in backend folder) 
+

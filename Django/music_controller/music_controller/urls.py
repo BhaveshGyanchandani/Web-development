@@ -19,8 +19,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/' , include('api.urls'))
+    path('api/' , include('api.urls')),
     # so what it does is ....when we type api/home we can redirect to home of views 
     # means we cannot accesss home by /home but we need api/home to access home....basically redirrect eeverything after api/ for whatever is in api.urls
-    
+      path('' ,include('frontend.urls'))
        ]

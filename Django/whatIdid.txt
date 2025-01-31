@@ -8,4 +8,6 @@ npm install @material-ui/core
 npm install @babel/plugin-proposal-class-properties
 npm install react-router-dom@6
 npm install @material-ui/icons
-
+create a bebel.config.json in frontend and webpack.config.json
+add "dev":"webpack --mode development --watch" and "build":"webpack --mode production", in package.json
+create a index.js in src and index.html in templates->frontend folder and add {% load static %} after title tag
